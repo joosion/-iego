@@ -1,0 +1,2095 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    color: inherit;
+}
+#fp-nav li a span{
+ background-color: #cccccc !important;
+}
+#fp-nav li a :hover{
+ background-color: #5C6AC4 !important;
+}
+#fp-nav li a.active span{
+ background-color: #5C6AC4 !important;
+}
+
+.con1{
+    margin: 0 auto;
+    text-align: center;
+    background-color: #F7F8FC;
+}
+.con1 img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+/* con1*/
+.con2{
+    background-color: #F7F8FC;
+    font-family: 'AppleSDGothicNeoR';
+}
+.con2phone{
+    position: absolute;
+    width: 580px;
+    height: auto;
+    bottom: 100px;
+    right: 320px;
+}
+.con2 .over{
+    position: absolute;
+    font-family: 'SF Pro Display';
+    font-weight: 600;
+    font-size: 30px;
+    top: 100px;
+    left: 200px;
+}
+.con2 .con{
+    font-size: 15px;
+    line-height: 30px;
+    position:absolute;
+    left: 200px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.con2 .txt{
+    font-family: 'AppleSDGothicNeoSB';
+    font-size: 15px;
+    line-height: 40px;
+    position: absolute;
+    left: 200px;
+    bottom: 190px;
+}
+.con2 .txt span{
+    font-family: 'AppleSDGothicNeoR';
+}
+/* con2 */
+.con3{
+    background-color: #F7F8FC;
+}
+.con3 .header{
+    position: absolute;
+    font-family: 'SF Pro Display';
+    font-weight: 600;
+    font-size: 30px;
+    top: 100px;
+    left: 200px;
+}
+.con3 .sub{
+    position: absolute;
+    top: 150px;
+    color: #cccccc;
+    left: 200px;
+    font-family: 'AppleSDGothicNeoR';
+    font-size: 15px;
+}
+.con3 .con3leftline{
+    position: absolute;
+    top: 690px;
+    transform: translateY(-50%);
+    width: 600px;
+    height: 5px;
+    background-color: #5C6AC4;
+    left: 300px;
+}
+.con3 .con3rightline{
+    position: absolute;
+    top: 690px;
+    transform: translateY(-50%);
+    width: 600px;
+    height: 5px;
+    background-color: #5C6AC4;
+    right: 300px;
+}
+.con3 .answer1{
+    display: flex;
+    position: absolute;
+    left: 330px;
+    top: 710px;
+    font-family: 'AppleSDGothicNeoR';
+}
+.con3 .answer1 li:first-child{
+    margin-right: 70px;
+    color: #5C6AC4;
+}
+.con3 .answer1 li:nth-child(2){
+    margin-right: 75px;
+    color: #5C6AC4;
+}
+.con3 .answer1 li:nth-child(3){
+    margin-right: 65px;
+    opacity: 0.5;
+}
+.con3 .answer1 li:nth-child(4){
+    margin-right: 65px;
+    opacity: 0.5;
+}
+.con3 .left1{
+    position: absolute;
+    left: 360px;
+    bottom: 290px;
+    width: 40px;
+    height: 0px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    background-color: #5C6AC4;
+}
+.con3 .left2{
+    position: absolute;
+    left: 530px;
+    bottom: 290px;
+    width: 40px;
+    height: 0px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    background-color: #5C6AC4;
+}
+.con3 .left3{
+    position: absolute;
+    left: 673px;
+    bottom: 290px;
+    width: 40px;
+    height: 0px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    background-color: #5C6AC4;
+}
+.con3 .left4{
+    position: absolute;
+    left: 810px;
+    bottom: 290px;
+    width: 40px;
+    height: 0px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    background-color: #5C6AC4;
+}
+.con3 .answer2{
+    display: flex;
+    position: absolute;
+    right: 335px;
+    top: 710px;
+    font-family: 'AppleSDGothicNeoR';
+}
+.con3 .answer2 li:first-child{
+    margin-right: 93px;
+    color: #5C6AC4;
+}
+.con3 .answer2 li:nth-child(2){
+    margin-right: 93px;
+    color: #5C6AC4;
+}
+.con3 .answer2 li:nth-child(3){
+    margin-right: 93px;
+    opacity: 0.5;
+}
+.con3 .answer2 li:nth-child(4){
+    opacity: 0.5;
+}
+.con3 .right1{
+    position: absolute;
+    right: 800px;
+    bottom: 290px;
+    width: 40px;
+    height: 0px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    background-color: #5C6AC4;
+}
+.con3 .right2{
+    position: absolute;
+    right: 621px;
+    bottom: 290px;
+    width: 40px;
+    height: 0px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    background-color: #5C6AC4;
+}
+.con3 .right3{
+    position: absolute;
+    right: 480px;
+    bottom: 290px;
+    width: 40px;
+    height: 0px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    background-color: #5C6AC4;
+}
+.con3 .right4{
+    position: absolute;
+    right: 345px;
+    bottom: 290px;
+    width: 40px;
+    height: 0px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    background-color: #5C6AC4;
+}
+.con3 .q1{
+    font-family: 'AppleSDGothicNeoR';
+    font-size: 18px;
+    color: #242831;
+    position: absolute;
+    top: 250px;
+    left: 290px;
+}
+.con3 .q2{
+    font-family: 'AppleSDGothicNeoR';
+    font-size: 18px;
+    color: #242831;
+    position: absolute;
+    top: 250px;
+    right: 530px;
+}
+/* con3 */
+.con4{
+    background-color: #F7F8FC;
+}
+.con4 .header{
+    position: absolute;
+    font-family: 'SF Pro Display';
+    font-weight: 600;
+    font-size: 30px;
+    top: 100px;
+    left: 200px;
+}
+.con4 .sub{
+    position: absolute;
+    top: 150px;
+    color: #cccccc;
+    left: 200px;
+    font-family: 'AppleSDGothicNeoR';
+    font-size: 15px;
+}
+.con4 .pr1{
+    position: absolute;
+    top: 52%;
+    transform: translateY(-50%);
+    left: 300px;
+}
+.con4 .pr2{
+    position: absolute;
+    top: 52%;
+    transform: translateY(-50%);
+    right: 300px;
+}
+.leftc1{
+    position: absolute;
+    left:350px;
+    bottom: 300px;
+    opacity: 0;
+}
+.counter1{
+    font-family: 'AppleSDGothicNeoR';
+    font-size: 32px;
+    display: inline-block;
+    color: #5C6AC4;
+
+}
+.percent1{
+    font-family: 'AppleSDGothicNeoR';
+    font-size: 32px;
+    display: inline-block;
+    margin-left:5px;
+    color: #5C6AC4;
+
+}
+/* leftc1 */
+.leftc2{
+    position: absolute;
+    left:520px;
+    bottom: 300px;
+    opacity: 0;
+}
+.counter2{
+    font-family: 'AppleSDGothicNeoR';
+    font-size: 32px;
+    display: inline-block;
+    color: #5C6AC4;
+}
+.percent2{
+    font-family: 'AppleSDGothicNeoR';
+    font-size: 32px;
+    display: inline-block;
+    margin-left:5px;
+    color: #5C6AC4;
+}
+/* leftc2 */
+.leftc3{
+    position: absolute;
+    left:660px;
+    bottom: 300px;
+    opacity: 0;
+}
+.counter3{
+    font-family: 'AppleSDGothicNeoR';
+    font-size: 32px;
+    display: inline-block;
+}
+.percent3{
+    font-family: 'AppleSDGothicNeoR';
+    font-size: 32px;
+    display: inline-block;
+    margin-left:5px;
+}
+/* leftc3 */
+.leftc4{
+    position: absolute;
+    left:805px;
+    bottom: 300px;
+    opacity: 0;
+}
+.counter4{
+    font-family: 'AppleSDGothicNeoR';
+    font-size: 32px;
+    display: inline-block;
+}
+.percent4{
+    font-family: 'AppleSDGothicNeoR';
+    font-size: 32px;
+    display: inline-block;
+    margin-left:5px;
+}
+/* leftc4 */
+.rightc1{
+    position: absolute;
+    right:785px;
+    bottom:300px;
+    opacity: 0;
+}
+.counter5{
+    font-family: 'AppleSDGothicNeoR';
+    font-size: 32px;
+    display: inline-block;
+    color: #5C6AC4;
+
+}
+.percent5{
+    font-family: 'AppleSDGothicNeoR';
+    font-size: 32px;
+    display: inline-block;
+    margin-left:5px;
+    color: #5C6AC4;
+
+}
+/* right1 */
+.rightc2{
+    position: absolute;
+    right:610px;
+    bottom:300px;
+    opacity: 0;
+}
+.counter6{
+    font-family: 'AppleSDGothicNeoR';
+    font-size: 32px;
+    display: inline-block;
+    color: #5C6AC4;
+
+}
+.percent6{
+    font-family: 'AppleSDGothicNeoR';
+    font-size: 32px;
+    display: inline-block;
+    margin-left:5px;
+    color: #5C6AC4;
+
+}
+/* right2 */
+.rightc3{
+    position: absolute;
+    right:470px;
+    bottom:300px;
+    opacity: 0;
+}
+.counter7{
+    font-family: 'AppleSDGothicNeoR';
+    font-size: 32px;
+    display: inline-block;
+}
+.percent7{
+    font-family: 'AppleSDGothicNeoR';
+    font-size: 32px;
+    display: inline-block;
+    margin-left:5px;
+}
+/* right3 */
+.rightc4{
+    position: absolute;
+    right:340px;
+    bottom:300px;
+    opacity: 0;
+}
+.counter8{
+    font-family: 'AppleSDGothicNeoR';
+    font-size: 32px;
+    display: inline-block;
+}
+.percent8{
+    font-family: 'AppleSDGothicNeoR';
+    font-size: 32px;
+    display: inline-block;
+    margin-left:5px;
+}
+/* con4 */
+.con5{
+    background-color: #F7F8FC;
+}
+.con5 .header{
+    position: absolute;
+    font-family: 'SF Pro Display';
+    font-weight: 600;
+    font-size: 30px;
+    top: 100px;
+    left: 200px;
+}
+.con5 .sub{
+    position: absolute;
+    top: 150px;
+    color: #cccccc;
+    left: 200px;
+    font-family: 'AppleSDGothicNeoR';
+    font-size: 15px;
+}
+.con5 .con5leftback{
+    width: 210px;
+    height: 30px;
+    background-color: #5C6AC4;
+    position: absolute;
+    left:750px;
+    top: 450px;
+    opacity:1;
+    z-index: 9!important;
+}
+.con5 .con5lefttxt{
+    font-family: 'AppleSDGothicNeoEB';
+    font-size: 30px;
+    position: absolute;
+    left: 770px;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+.con5 .con5righttxt{
+    font-family: 'AppleSDGothicNeoEB';
+    font-size: 30px;
+    text-align: center;
+    line-height: 60px;
+    position: absolute;
+    right: 550px;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+.con5 .circle1{
+    width: 450px;
+    height: 450px;
+    border-radius: 50%;
+    background-color: unset;
+    border: 1px solid #5C6AC4;
+    animation: circle1 3.2s infinite linear;
+    left: 700px;
+    top: 260px;
+    position: absolute;
+}
+.con5 .circle2{
+    width: 650px;
+    height: 650px;
+    border-radius: 50%;
+    background-color: unset;
+    border: 1px solid #5C6AC4;
+    animation: circle2 3.3s infinite linear;
+    left: 605px;
+    top: 160px;
+    position: absolute;
+}
+.con5 .circle3{
+    width: 850px;
+    height: 850px;
+    border-radius: 50%;
+    background-color: unset;
+    border: 1px solid #5C6AC4;
+    animation: circle3 3.5s infinite linear;
+    left: 510px;
+    top: 60px;
+    position: absolute;
+}
+
+@keyframes circle1 {
+    0% {
+        opacity: 0;
+        border-radius: 50%;
+        transform: scale(1.2);
+    }
+
+    50% {
+        opacity: 1;
+        border-radius: 50%;
+        transform: scale(0.9);
+    }
+
+    100%{
+        opacity:0;
+        border-radius: 50%;
+        transform: scale(0.7);
+    }
+  }
+@keyframes circle2 {
+
+    0% {
+        opacity: 0.3;
+        border-radius: 50%;
+        transform: scale(1.2);
+    }
+
+    50% {
+        opacity: 0.7;
+        border-radius: 50%;
+        transform: scale(0.9);
+    }
+
+    100%{
+        opacity:0;
+        border-radius: 50%;
+        transform: scale(0.7);
+    }
+  }
+
+@keyframes circle3 {
+
+    0% {
+        opacity: 0.1;
+        border-radius: 50%;
+        transform: scale(1.2);
+    }
+
+    50%{
+        opacity: 0.5;
+        border-radius: 50%;
+        transform: scale(0.9);
+    }
+    100%{
+        opacity:0;
+        border-radius: 50%;
+        transform: scale(0.7);
+    }
+  }
+/* con5 */
+.con6{
+    background-color: #F7F8FC;
+}
+.con6 .header{
+    position: absolute;
+    font-family: 'SF Pro Display';
+    font-weight: 600;
+    font-size: 30px;
+    top: 100px;
+    left: 200px;
+}
+.con6 .logoimg{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.con6 .wrap1{
+    width: 0px;
+    top: 291px;
+    position: absolute;
+    left:765px;
+    height: 2px;
+    background-color: #ccc;
+}
+.con6 .wrap2{
+    width: 0px;
+    top: 675px;
+    position: absolute;
+    right:766px;
+    height: 2px;
+    background-color: #ccc;
+}
+.con6 .wrap3{
+    height: 0px;
+    bottom: 305px;
+    position: absolute;
+    left:765px;
+    width: 2px;
+    background-color: #ccc;
+}
+.con6 .wrap4{
+    height: 0px;
+    top: 292px;
+    position: absolute;
+    left:1152px;
+    width: 2px;
+    background-color: #ccc
+}
+.con6 .wrap5{
+    width: 0px;
+    top: 390px;
+    position: absolute;
+    left:745px;
+    height: 2px;
+    background-color: #ccc;
+}
+.con6 .wrap6{
+    width: 0px;
+    top: 483px;
+    position: absolute;
+    left:745px;
+    height: 2px;
+    background-color: #ccc;
+}
+.con6 .wrap7{
+    width: 0px;
+    top: 578px;
+    position: absolute;
+    left:745px;
+    height: 2px;
+    background-color: #ccc;
+}
+.con6 .wrap8{
+    height: 0px;
+    bottom: 282px;
+    position: absolute;
+    left:863px;
+    width: 2px;
+    background-color: #ccc;
+}
+.con6 .wrap9{
+    height: 0px;
+    bottom: 282px;
+    position: absolute;
+    left:960px;
+    width: 2px;
+    background-color: #ccc;
+}
+.con6 .wrap10{
+    height: 0px;
+    bottom: 282px;
+    position: absolute;
+    left:1055px;
+    width: 2px;
+    background-color: #ccc;
+}
+.con6 .wrap11{
+    height: 608px;
+    bottom: 193px;
+    position: absolute;
+    left:958px;
+    opacity: 0;
+    width: 2px;
+    background-color: #ccc;
+    transform:rotate(45.3deg)
+}
+.con6 .wrap12{
+    height: 608px;
+    top: 177px;
+    position: absolute;
+    left:955px;
+    width: 2px;
+    background-color: #ccc;
+    transform:rotate(-45deg);
+    opacity: 0;
+}
+.con6 .wrap13{
+    width: 188px;
+    height: 186px;
+    position: absolute;
+    top: 390px;
+    left: 45%;
+    border-radius: 50%;
+    background-color: unset;
+    border: 2px solid #ccc;
+    opacity: 0;
+}
+.con6 .wrap14{
+    width: 386px;
+    height: 384px;
+    position: absolute;
+    top: 290px;
+    left: 765px;
+    border-radius: 50%;
+    background-color: unset;
+    border: 2px solid #ccc;
+    opacity: 0;
+}
+.con6 .p1{
+    position: absolute;
+    left: 310px;
+    top: 450px;
+    opacity: 0;
+}
+.con6 .p1t{
+    font-family: 'AppleSDGothicNeoR';
+    font-weight:600;
+    font-size: 36px;
+    margin-bottom: 10px;
+    color: #5C6AC4;
+}
+.con6 .p1p{
+    font-family: 'AppleSDGothicNeoL';
+    font-size: 20px;
+    line-height: 35px;
+    color: #191919;
+}
+.info{
+    position: absolute;
+    right:1000px;
+    top: 470px;
+    display: flex;
+    font-size: 0;
+    padding: 0;
+}
+.line{
+    width: 0px;
+    height: 5px;
+    border-radius: 30px;
+    background:linear-gradient(to left, rgba(255, 85, 0, 0), #5C6AC4);
+
+}
+.info2{
+    position: absolute;
+    left: 1000px;
+    top: 430px;
+    display: flex;
+    font-size: 0;
+    padding: 0;
+}
+.line2{
+    width: 0px;
+    height: 5px;
+    border-radius: 30px;
+    background:linear-gradient(to right, rgba(255, 85, 0, 0), #5C6AC4);
+
+}
+.con6 .p2{
+    position: absolute;
+    right: 310px;
+    top: 410px;
+    opacity: 0;
+    text-align: right;
+}
+.con6 .p2t{
+    font-family: 'AppleSDGothicNeoR';
+    font-weight:600;
+    font-size: 36px;
+    margin-bottom: 10px;
+    color: #5C6AC4;
+}
+.con6 .p2p{
+    font-family: 'AppleSDGothicNeoL';
+    font-size: 20px;
+    line-height: 35px;
+    color: #191919;
+}
+/* con6 */
+.con7{
+    display: block !important;
+    opacity: 1 !important;
+    width: 100%;
+    height: 100vh;
+    color: #191919;
+    background-color: #F7F8FC;
+    position: relative;
+    text-align: center;
+    display: flex;
+    margin: 0 auto;
+}
+.con7 .left{
+    top: 180px;
+    left: 320px;
+    justify-self: left;
+    font-family: 'SF Pro Display';
+    position: absolute;
+}
+.con7 .left .colors{
+    font-size: 30px;
+    margin-bottom: 60px;
+    font-weight: 500;
+}
+.con7 .left .main .ex{
+    position: absolute;
+    left: 20px;
+    width: 70px;
+    height: 70px;
+    background-color: #5C6AC4;
+    border-radius: 100px;
+}
+.con7 .left .main .name{
+    position: absolute;
+    left: 100px;
+    top: 70px;
+    font-weight: 500;
+    font-size: 25px;
+}
+.con7 .left .main .color{
+    position: absolute;
+    color: #5C6AC4;
+    left: 100px;
+    top:110px;
+    font-size: 20px;
+    font-weight: 300;
+}
+.con7 .sub{
+    position: absolute;
+}
+
+.con7 .left .sub .black .name{
+    position: absolute;
+    left: 100px;
+    font-weight: 500;
+    top: 120px;
+    font-size: 24px;
+}
+.con7 .left .sub .black .ex{
+    position: absolute;
+    top: 145px;
+    left: 30px;
+    width: 50px;
+    height: 50px;
+    background-color: #191919;
+    border-radius: 100px;
+}
+.con7 .left .sub .black .color{
+    position: absolute;
+    color: #191919;
+    left: 100px;
+    top: 155px;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.con7 .left .sub .blue .ex{
+    position: absolute;
+    top: 147px;
+    left: 235px;
+    width: 50px;
+    height: 50px;
+    background-color: #5773ff;
+    border-radius: 100px;
+}
+.con7 .left .sub .blue .color{
+    position: absolute;
+    color: #5773ff;
+    left: 305px;
+    top: 153px;
+    font-size: 20px;
+    font-weight: 300;
+}
+.con7 .left .sub .blue .ex{
+    position: absolute;
+    top: 147px;
+    left: 235px;
+    width: 50px;
+    height: 50px;
+    background-color: #EFF1F3;
+    border-radius: 100px;
+}
+.con7 .left .sub .blue .color{
+    position: absolute;
+    color: #EFF1F3;
+    left: 325px;
+    top: 153px;
+    font-size: 20px;
+    font-weight: 300;
+}
+.con7 .left .sub .blue .cover{
+    position: absolute;
+    background-color: #5773ff;
+    width: 95px;
+    height: 30px;
+    top: 150px;
+    left: 315px;
+    border-radius: 30px;
+}
+/* left */
+.con7 .right{
+    position: absolute;
+    top:180px;
+    right:320px;
+    font-family: 'SF Pro Display';
+    font-weight: 300;
+}
+.con7 .right .font{
+    position: absolute;
+    right:365px;
+    text-align: left;
+    font-size: 30px;
+    margin-bottom: 60px;
+    font-weight: 500;
+    
+}
+.con7 .right .text{
+    position: absolute;
+    right: 190px;
+    font-weight: 500;
+    top: 100px;
+    font-size: 25px;
+}
+.con7 .right .text li{
+    margin-bottom: 60px;
+    width: 250px;
+    font-size: 25px;
+    text-align: left;
+}
+.con7 .right .text li:nth-child(1){
+    font-family: 'AppleSDGothicNeoB';
+}
+.con7 .right .text li:nth-child(2){
+    font-family: 'AppleSDGothicNeoSB';
+}
+.con7 .right .text li:nth-child(3){
+    font-family: 'AppleSDGothicNeoR';
+}
+.con7 .right .text li:nth-child(4){
+    font-family: 'AppleSDGothicNeoL';
+    font-weight: 300;
+}
+.con7 .right .name{
+    position: absolute;
+    top: 100px;
+    right: 0;
+    font-size: 25px;
+}
+.con7 .right .name li{
+    margin-bottom: 60px;
+    font-size: 25px;
+    text-align: right;
+    color: #5773ff;
+}
+.con7 .right .name li:nth-child(1){
+    font-family: 'AppleSDGothicNeoB';
+}
+.con7 .right .name li:nth-child(2){
+    font-family: 'AppleSDGothicNeoSB';
+}
+.con7 .right .name li:nth-child(3){
+    font-family: 'AppleSDGothicNeoR';
+}
+.con7 .right .name li:nth-child(4){
+    font-family: 'AppleSDGothicNeoL';
+}
+.con7 .con7bottom{
+    font-family: 'AppleSDGothicNeoR';
+    font-size: 20px;
+position: absolute;
+left: 50%;
+top:750px;
+transform: translate(-50%,-50%);
+    line-height: 35px;
+    color: #191919;
+    background-color: unset;
+}
+/* con7 */
+.con8{
+    background-color: #F7F8FC;
+}
+.con8 .header{
+    position: absolute;
+    font-family: 'SF Pro Display';
+    font-weight: 600;
+    font-size: 30px;
+    top: 100px;
+    left: 200px;
+}
+.con8 .con8-1{
+    position: absolute;
+    left: 50%;
+    top: 35px;
+    opacity: 0;
+    transform: translateX(-50%);
+}
+.con8 .s1{
+    width: 0px;
+    height: 2px;
+    background-color: #ccc;
+    position: absolute;
+    top: 125px;
+    right: 1005px;
+}
+.con8 .s2{
+    height: 0px;
+    width: 2px;
+    background-color: #ccc;
+    position: absolute;
+    top: 125px;
+    left: 525px;
+}
+.con8 .s3{
+    height: 0px;
+    width: 2px;
+    background-color: #ccc;
+    position: absolute;
+    top: 125px;
+    left: 1020px;
+}
+.con8 .s4{
+    height: 2px;
+    width: 0px;
+    background-color: #ccc;
+    position: absolute;
+    top: 125px;
+    left: 1005px;
+}
+.con8 .s5{
+    height: 0px;
+    width: 2px;
+    background-color: #ccc;
+    position: absolute;
+    top: 477px;
+    right: 525px;
+}
+.con8 .s6{
+    height: 2px;
+    width: 0px;
+    background-color: #ccc;
+    position: absolute;
+    top: 484.5px;
+    right: 525px;
+}
+.con8 .s7{
+    height: 0px;
+    width: 2px;
+    background-color: #ccc;
+    position: absolute;
+    top: 484.5px;
+    right: 1020px;
+}
+.con8 .s8{
+    height: 0px;
+    width: 2px;
+    background-color: #ccc;
+    position: absolute;
+    top: 698px;
+    right: 1144px;
+}
+.con8 .s9{
+    height: 0px;
+    width: 2px;
+    background-color: #ccc;
+    position: absolute;
+    top: 698px;
+    right: 772px;
+}
+.con8 .s10{
+    height: 0px;
+    width: 2px;
+    background-color: #ccc;
+    position: absolute;
+    top: 698px;
+    right: 647px;
+}
+.con8 .con8-2{
+    position: absolute;
+    left: 50%;
+    top: 275px;
+    opacity: 0;
+    transform: translateX(-50%);
+}
+.con8 .con8-3{
+    position: absolute;
+    left: 56.5%;
+    top: 495px;
+    transform: translateX(-50%);
+    opacity: 0;
+}
+.con8 .con8-4{
+    position: absolute;
+    top: 715px;
+    left: 730px;
+    opacity: 0;
+}
+.con8 .con8-5{
+    position: absolute;
+    top: 715px;
+    left: 1100px;
+    opacity: 0;
+}
+.con8 .con8-6{
+    position: absolute;
+    top: 715px;
+    left: 1225px;
+    opacity: 0;
+}
+/* con8 */
+.con9{
+    background-color: #F7F8FC;
+}
+.con9 .header{
+    position: absolute;
+    font-family: 'SF Pro Display';
+    font-weight: 600;
+    font-size: 30px;
+    top: 100px;
+    left: 200px;
+}
+.con9 .mouckup{
+    position: absolute;
+    left: 150px;
+    top: 100px;
+}
+.con9 .logo{
+    position:absolute;
+    top: 150px;
+    right: 200px;
+}
+.con9 p{
+    font-family: 'AppleSDGothicNeoR';
+    text-align: right;
+    font-size: 20px;
+    line-height: 45px;
+    margin-right: 200px;
+
+}
+/* con9 */
+.con10{
+    background-color: #F7F8FC;
+    width: 100%;
+}
+.con10 .header{
+    position: absolute;
+    font-family: 'SF Pro Display';
+    font-weight: 600;
+    font-size: 30px;
+    top: 100px;
+    left: 200px;
+}
+.con10 .sub{
+    position: absolute;
+    top: 150px;
+    color: #191919;
+    left: 200px;
+    font-family: 'AppleSDGothicNeoR';
+    font-size: 15px;
+}
+.con10 .img{
+    margin-left: 300px;
+    margin-top: 150px;
+    display: flex;
+}
+.con10 .img li img{
+    width: 346px;
+    height: 640px;
+    opacity: 0.5;
+    transition: 0.7s;
+}
+.con10 .img li:hover img{
+    transform: scale(1.3);
+    opacity: 1;
+    transition: 0.7s;
+}
+/* con10 */
+.con11{
+    background-color: #F7F8FC;
+    width: 100%;
+}
+.con11 .header{
+    position: absolute;
+    font-family: 'SF Pro Display';
+    font-weight: 600;
+    font-size: 30px;
+    top: 100px;
+    left: 200px;
+}
+.con11 .sub{
+    position: absolute;
+    top: 150px;
+    color: #191919;
+    left: 200px;
+    font-family: 'AppleSDGothicNeoR';
+    font-size: 15px;
+}
+.con11 .img{
+    margin-left: 300px;
+    margin-top: 150px;
+    display: flex;
+}
+.con11 .img li img{
+    width: 346px;
+    height: 640px;
+    opacity: 0.5;
+    transition: 0.7s;
+}
+.con11 .img li:hover img{
+    transform: scale(1.3);
+    opacity: 1;
+    transition: 0.7s;
+}
+/* con11 */
+.con12{
+    background-color: #F7F8FC;
+    width: 100%;
+}
+.con12 .header{
+    position: absolute;
+    font-family: 'SF Pro Display';
+    font-weight: 600;
+    font-size: 30px;
+    top: 100px;
+    right: 200px;
+}
+.con12 .sub{
+    position: absolute;
+    top: 150px;
+    color: #191919;
+    right: 200px;
+    text-align: right;
+    font-family: 'AppleSDGothicNeoR';
+    font-size: 15px;
+    line-height: 35px;
+}
+.con12 .images{
+    position: absolute;
+    left: 200px;
+    top: 100px;
+}
+.con12 .con12sear{
+    position: absolute;
+    left: 1010px;
+    top: 330px;
+    opacity: 0;
+}
+.con12 .con12seart{
+    font-family: 'AppleSDGothicNeoR';
+    font-weight:600;
+    font-size: 36px;
+    margin-bottom: 10px;
+    color: #5C6AC4;
+}
+.con12 .con12searp{
+    font-family: 'AppleSDGothicNeoL';
+    font-size: 20px;
+    line-height: 35px;
+    color: #191919;
+}
+.con12 .con12supp{
+    position: absolute;
+    left: 1010px;
+    top: 600px;
+    opacity: 0;
+}
+.con12 .con12suppt{
+    font-family: 'AppleSDGothicNeoR';
+    font-weight:600;
+    font-size: 36px;
+    margin-bottom: 10px;
+    color: #5C6AC4;
+}
+.con12 .con12suppp{
+    font-family: 'AppleSDGothicNeoL';
+    font-size: 20px;
+    line-height: 35px;
+    color: #191919;
+}
+.info3{
+    position: absolute;
+    left: 500px;
+    top: 350px;
+    display: flex;
+    font-size: 0;
+    padding: 0;
+}
+.line3{
+    width: 0px;
+    height: 5px;
+    border-radius: 30px;
+    background:linear-gradient(to right, rgba(255, 85, 0, 0), #5C6AC4);
+}
+.info4{
+    position: absolute;
+    left: 500px;
+    top: 620px;
+    display: flex;
+    font-size: 0;
+    padding: 0;
+}
+.line4{
+    width: 0px;
+    height: 5px;
+    border-radius: 30px;
+    background:linear-gradient(to right, rgba(255, 85, 0, 0), #5C6AC4);
+}
+
+.con12circle1{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #5773ff;
+    position: absolute;
+    top: 330px;
+    animation: bounce 3s linear infinite;
+    opacity: 0.7;
+    left: 372px;
+}
+.con12circle2{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #5773ff;
+    position: absolute;
+    top: 320px;
+    animation: bounce2 3.5s linear infinite;
+    opacity: 0.3;
+    left: 362px;
+}
+.con12circle3{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #5773ff;
+    position: absolute;
+    top: 605px;
+    animation: bounce 3s linear infinite;
+    opacity: 0.7;
+    left: 372px;
+}
+.con12circle4{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #5773ff;
+    position: absolute;
+    top: 595px;
+    animation: bounce2 3.5s linear infinite;
+    opacity: 0.3;
+    left: 362px;
+}
+@keyframes bounce {
+
+    0% {
+        opacity: 0;
+        border-radius: 50%;
+        transform: scale(1);
+    }
+
+    50%{
+        opacity:0.7;
+        border-radius: 50%;
+        transform: scale(1.2);
+    }
+    100%{
+        opacity:0;
+        border-radius: 50%;
+        transform: scale(1.4);
+    }
+  }
+@keyframes bounce2 {
+
+    0% {
+        opacity: 0;
+        border-radius: 50%;
+        transform: scale(1);
+    }
+
+    50%{
+        opacity: 0.3;
+        border-radius: 50%;
+        transform: scale(1.4);
+    }
+    100%{
+        opacity:0;
+        border-radius: 50%;
+        transform: scale(1.6);
+    }
+  }
+/* con12 */
+.con13{
+    background-color: #F7F8FC;
+    width: 100%;
+}
+.con13 .header{
+    position: absolute;
+    font-family: 'SF Pro Display';
+    font-weight: 600;
+    font-size: 30px;
+    top: 100px;
+    right: 200px;
+}
+.con13 .sub{
+    position: absolute;
+    top: 150px;
+    color: #191919;
+    right: 200px;
+    text-align: right;
+    font-family: 'AppleSDGothicNeoR';
+    font-size: 15px;
+    line-height: 35px;
+}
+.con13 .images{
+    position: absolute;
+    left: 200px;
+    top: 100px;
+}
+.con13 .images-2{
+    position: absolute;
+    left: 200px;
+    top: 120px;
+}
+.con13 .con13my{
+    position: absolute;
+    left: 1010px;
+    top: 330px;
+    opacity: 0;
+}
+.con13 .con13myt{
+    font-family: 'AppleSDGothicNeoR';
+    font-weight:600;
+    font-size: 36px;
+    margin-bottom: 10px;
+    color: #5C6AC4;
+}
+.con13 .con13myp{
+    font-family: 'AppleSDGothicNeoL';
+    font-size: 20px;
+    line-height: 35px;
+    color: #191919;
+}
+.info5{
+    position: absolute;
+    left: 500px;
+    top: 350px;
+    display: flex;
+    font-size: 0;
+    padding: 0;
+}
+.line5{
+    width: 0px;
+    height: 5px;
+    border-radius: 30px;
+    background:linear-gradient(to right, rgba(255, 85, 0, 0), #5C6AC4);
+}
+.con13 .con13ex{
+    position: absolute;
+    left: 1210px;
+    top: 590px;
+    opacity: 0;
+}
+.con13 .con13ext{
+    font-family: 'AppleSDGothicNeoR';
+    font-weight:600;
+    font-size: 36px;
+    margin-bottom: 10px;
+    color: #5C6AC4;
+}
+.con13 .con13exp{
+    font-family: 'AppleSDGothicNeoL';
+    font-size: 20px;
+    line-height: 35px;
+    color: #191919;
+}
+.info6{
+    position: absolute;
+    left: 710px;
+    top: 610px;
+    display: flex;
+    font-size: 0;
+    padding: 0;
+}
+.line6{
+    width: 0px;
+    height: 5px;
+    border-radius: 30px;
+    background:linear-gradient(to right, rgba(255, 85, 0, 0), #5C6AC4);
+}
+.con13circle1{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #5773ff;
+    position: absolute;
+    top: 330px;
+    animation: bounce 3s linear infinite;
+    opacity: 0.7;
+    left: 372px;
+}
+.con13circle2{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #5773ff;
+    position: absolute;
+    top: 320px;
+    animation: bounce2 3.5s linear infinite;
+    opacity: 0.3;
+    left: 362px;
+}
+.con13bounce2{
+    opacity: 0;
+}
+.con13circle3{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #5773ff;
+    position: absolute;
+    top: 595px;
+    animation: bounce 3s linear infinite;
+    opacity: 0.7;
+    left: 620px;
+}
+.con13circle4{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #5773ff;
+    position: absolute;
+    top: 585px;
+    animation: bounce2 3.5s linear infinite;
+    opacity: 0.3;
+    left: 610px;
+}
+/* con13 */
+.con14{
+    background-color: #F7F8FC;
+    width: 100%;
+}
+.con14 .header{
+    position: absolute;
+    font-family: 'SF Pro Display';
+    font-weight: 600;
+    font-size: 30px;
+    top: 100px;
+    right: 200px;
+}
+.con14 .sub{
+    position: absolute;
+    top: 150px;
+    color: #191919;
+    right: 200px;
+    text-align: right;
+    font-family: 'AppleSDGothicNeoR';
+    font-size: 15px;
+    line-height: 35px;
+}
+.con14 .images{
+    position: absolute;
+    left: 200px;
+    top: 100px;
+}
+.con14 .con14tar{
+    position: absolute;
+    left: 1010px;
+    top: 280px;
+    opacity: 0;
+}
+.con14 .con14tart{
+    font-family: 'AppleSDGothicNeoR';
+    font-weight:600;
+    font-size: 36px;
+    margin-bottom: 10px;
+    color: #5C6AC4;
+}
+.con14 .con14tarp{
+    font-family: 'AppleSDGothicNeoL';
+    font-size: 20px;
+    line-height: 35px;
+    color: #191919;
+}
+.con14 .con14acc{
+    position: absolute;
+    left: 1010px;
+    top: 600px;
+    opacity: 0;
+}
+.con14 .con14acct{
+    font-family: 'AppleSDGothicNeoR';
+    font-weight:600;
+    font-size: 36px;
+    margin-bottom: 10px;
+    color: #5C6AC4;
+}
+.con14 .con14accp{
+    font-family: 'AppleSDGothicNeoL';
+    font-size: 20px;
+    line-height: 35px;
+    color: #191919;
+}
+.info7{
+    position: absolute;
+    left: 500px;
+    top: 300px;
+    display: flex;
+    font-size: 0;
+    padding: 0;
+}
+.line7{
+    width: 0px;
+    height: 5px;
+    border-radius: 30px;
+    background:linear-gradient(to right, rgba(255, 85, 0, 0), #5C6AC4);
+}
+.info8{
+    position: absolute;
+    left: 500px;
+    top: 620px;
+    display: flex;
+    font-size: 0;
+    padding: 0;
+}
+.line8{
+    width: 0px;
+    height: 5px;
+    border-radius: 30px;
+    background:linear-gradient(to right, rgba(255, 85, 0, 0), #5C6AC4);
+}
+
+.con14circle1{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #5773ff;
+    position: absolute;
+    top: 280px;
+    animation: bounce 3s linear infinite;
+    opacity: 0.7;
+    left: 372px;
+}
+.con14circle2{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #5773ff;
+    position: absolute;
+    top: 270px;
+    animation: bounce2 3.5s linear infinite;
+    opacity: 0.3;
+    left: 362px;
+}
+.con14circle3{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #5773ff;
+    position: absolute;
+    top: 605px;
+    animation: bounce 3s linear infinite;
+    opacity: 0.7;
+    left: 372px;
+}
+.con14circle4{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #5773ff;
+    position: absolute;
+    top: 595px;
+    animation: bounce2 3.5s linear infinite;
+    opacity: 0.3;
+    left: 362px;
+}
+/* con14 */
+.con15{
+    background-color: #F7F8FC;
+    width: 100%;
+}
+.con15 .con15images{
+    position: absolute;
+    right: 200px;
+    top: 100px;
+}
+.con15 .con15images-2{
+    position: absolute;
+    right: 200px;
+    top: 120px;
+}
+.con15 .con15room{
+    position: absolute;
+    right: 1000px;
+    top: 420px;
+    opacity: 0;
+}
+.con15 .con15roomt{
+    font-family: 'AppleSDGothicNeoR';
+    font-weight:600;
+    font-size: 36px;
+    margin-bottom: 10px;
+    color: #5C6AC4;
+}
+.con15 .con15roomp{
+    font-family: 'AppleSDGothicNeoL';
+    font-size: 20px;
+    line-height: 35px;
+    color: #191919;
+}
+.con15 .con15list{
+    position: absolute;
+    right: 970px;
+    top: 700px;
+    opacity: 0;
+}
+.con15 .con15listt{
+    font-family: 'AppleSDGothicNeoR';
+    font-weight:600;
+    font-size: 36px;
+    margin-bottom: 10px;
+    color: #5C6AC4;
+}
+.con15 .con15listp{
+    font-family: 'AppleSDGothicNeoL';
+    font-size: 20px;
+    line-height: 35px;
+    color: #191919;
+}
+.info9{
+    position: absolute;
+    right: 500px;
+    top: 440px;
+    display: flex;
+    font-size: 0;
+    padding: 0;
+}
+.line9{
+    width: 0px;
+    height: 5px;
+    border-radius: 30px;
+    background:linear-gradient(to left, rgba(255, 85, 0, 0), #5C6AC4);
+}
+.info10{
+    position: absolute;
+    right: 700px;
+    top: 720px;
+    display: flex;
+    font-size: 0;
+    padding: 0;
+}
+.line10{
+    width: 0px;
+    height: 5px;
+    border-radius: 30px;
+    background:linear-gradient(to left, rgba(255, 85, 0, 0), #5C6AC4);
+}
+
+.con15circle1{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #5773ff;
+    position: absolute;
+    top: 420px;
+    animation: bounce 3s linear infinite;
+    opacity: 0.7;
+    right: 372px;
+}
+.con15bounce2{
+    opacity: 0;
+}
+.con15circle2{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #5773ff;
+    position: absolute;
+    top: 410px;
+    animation: bounce2 3.5s linear infinite;
+    opacity: 0.3;
+    right: 362px;
+}
+.con15circle3{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #5773ff;
+    position: absolute;
+    top: 705px;
+    animation: bounce 3s linear infinite;
+    opacity: 0.7;
+    right: 622px;
+}
+.con15circle4{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #5773ff;
+    position: absolute;
+    top: 695px;
+    animation: bounce2 3.5s linear infinite;
+    opacity: 0.3;
+    right: 612px;
+}
+/* con15 */
+.con16{
+    background-color: #F7F8FC;
+    width: 100%;
+}
+.con16 .con16images{
+    position: absolute;
+    left: 200px;
+    top: 100px;
+}
+.con16 .con16images-2{
+    position: absolute;
+    left: 200px;
+    top: 120px;
+}
+.con16 .con16pre{
+    position: absolute;
+    left: 1010px;
+    top: 330px;
+    opacity: 0;
+}
+.con16 .con16pret{
+    font-family: 'AppleSDGothicNeoR';
+    font-weight:600;
+    font-size: 36px;
+    margin-bottom: 10px;
+    color: #5C6AC4;
+}
+.con16 .con16prep{
+    font-family: 'AppleSDGothicNeoL';
+    font-size: 20px;
+    line-height: 35px;
+    color: #191919;
+}
+.info11{
+    position: absolute;
+    left: 500px;
+    top: 350px;
+    display: flex;
+    font-size: 0;
+    padding: 0;
+}
+.line11{
+    width: 0px;
+    height: 5px;
+    border-radius: 30px;
+    background:linear-gradient(to right, rgba(255, 85, 0, 0), #5C6AC4);
+}
+.con16 .con16de{
+    position: absolute;
+    left: 1210px;
+    top: 590px;
+    opacity: 0;
+}
+.con16 .con16det{
+    font-family: 'AppleSDGothicNeoR';
+    font-weight:600;
+    font-size: 36px;
+    margin-bottom: 10px;
+    color: #5C6AC4;
+}
+.con16 .con16dep{
+    font-family: 'AppleSDGothicNeoL';
+    font-size: 20px;
+    line-height: 35px;
+    color: #191919;
+}
+.info12{
+    position: absolute;
+    left: 710px;
+    top: 610px;
+    display: flex;
+    font-size: 0;
+    padding: 0;
+}
+.line12{
+    width: 0px;
+    height: 5px;
+    border-radius: 30px;
+    background:linear-gradient(to right, rgba(255, 85, 0, 0), #5C6AC4);
+}
+.con16circle1{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #5773ff;
+    position: absolute;
+    top: 330px;
+    animation: bounce 3s linear infinite;
+    opacity: 0.7;
+    left: 372px;
+}
+.con16circle2{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #5773ff;
+    position: absolute;
+    top: 320px;
+    animation: bounce2 3.5s linear infinite;
+    opacity: 0.3;
+    left: 362px;
+}
+.con16bounce2{
+    opacity: 0;
+}
+.con16circle3{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #5773ff;
+    position: absolute;
+    top: 595px;
+    animation: bounce 3s linear infinite;
+    opacity: 0.7;
+    left: 620px;
+}
+.con16circle4{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #5773ff;
+    position: absolute;
+    top: 585px;
+    animation: bounce2 3.5s linear infinite;
+    opacity: 0.3;
+    left: 610px;
+}
+/* con16 */
+.con17{
+    background-color: #F7F8FC;
+    width: 100%;
+}
+.con17 img{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    height: 50%;
+    width: auto;
+    transform: translate(-50%, -50%);
+}
+.con17 .circle1{
+    width: 450px;
+    height: 450px;
+    border-radius: 50%;
+    background-color: unset;
+    border: 1px solid #5C6AC4;
+    animation: circle1 3.2s infinite linear;
+    left: 730px;
+    top: 260px;
+    position: absolute;
+}
+.con17 .circle2{
+    width: 650px;
+    height: 650px;
+    border-radius: 50%;
+    background-color: unset;
+    border: 1px solid #5C6AC4;
+    animation: circle2 3.3s infinite linear;
+    left: 635px;
+    top: 160px;
+    position: absolute;
+}
+.con17 .circle3{
+    width: 850px;
+    height: 850px;
+    border-radius: 50%;
+    background-color: unset;
+    border: 1px solid #5C6AC4;
+    animation: circle3 3.5s infinite linear;
+    left: 540px;
+    top: 60px;
+    position: absolute;
+}
+.con17 .con17pay{
+    position: absolute;
+    left: 1410px;
+    top: 350px;
+    opacity: 0;
+    text-align: right;
+}
+.con17 .con17payt{
+    font-family: 'AppleSDGothicNeoR';
+    font-weight:600;
+    font-size: 36px;
+    margin-bottom: 10px;
+    color: #5C6AC4;
+}
+.con17 .con17payp{
+    font-family: 'AppleSDGothicNeoL';
+    font-size: 20px;
+    line-height: 35px;
+    color: #191919;
+}
+.con17 .con17payment{
+    position: absolute;
+    right: 1310px;
+    top: 585px;
+    opacity: 0;
+    text-align: left;
+}
+.con17 .con17paymentt{
+    font-family: 'AppleSDGothicNeoR';
+    font-weight:600;
+    font-size: 36px;
+    margin-bottom: 10px;
+    color: #5C6AC4;
+}
+.con17 .con17paymentp{
+    font-family: 'AppleSDGothicNeoL';
+    font-size: 20px;
+    line-height: 35px;
+    color: #191919;
+}
+.info13{
+    position: absolute;
+    left: 1010px;
+    top: 370px;
+    display: flex;
+    font-size: 0;
+    padding: 0;
+}
+.line13{
+    width: 0px;
+    height: 5px;
+    border-radius: 30px;
+    background:linear-gradient(to right, rgba(255, 85, 0, 0), #5C6AC4);
+}
+.info14{
+    position: absolute;
+    right: 1010px;
+    top: 605px;
+    display: flex;
+    font-size: 0;
+    padding: 0;
+}
+.line14{
+    width: 0px;
+    height: 5px;
+    border-radius: 30px;
+    background:linear-gradient(to left, rgba(255, 85, 0, 0), #5C6AC4);
+}
+.con17circle1{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #5773ff;
+    position: absolute;
+    top: 358px;
+    animation: bounce 3s linear infinite;
+    opacity: 0.7;
+    left: 940px;
+}
+.con17circle2{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #5773ff;
+    position: absolute;
+    top: 348px;
+    animation: bounce2 3.5s linear infinite;
+    opacity: 0.3;
+    left: 930px;
+}
+.con17circle3{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    top: 588px;
+    animation: bounce 3s linear infinite;
+    opacity: 0.7;
+    left: 938px;
+}
+.con17circle4{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    top: 578px;
+    animation: bounce2 3.5s linear infinite;
+    opacity: 0.3;
+    left: 928px;
+}

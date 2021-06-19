@@ -1,0 +1,92 @@
+@font-face {
+    font-family: 'SF Pro Display';
+    font-weight: 300;
+    font-style: normal;
+    src: local('SF Pro Display'),
+        url('FontsFree-Net-SFProDisplay-Light.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'SF Pro Display';
+    font-weight: 600;
+    font-style: normal;
+    src: local('SF Pro Display'),
+        url('FontsFree-Net-SFProDisplay-Semibold.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'SF Pro Display';
+    font-weight: medium;
+    font-style: normal;
+    src: local('SF Pro Display'),
+        url('FontsFree-Net-SFProDisplay-Medium.ttf') format('truetype');
+}
+
+/* roboto */
+@font-face {
+    font-family: 'Roboto';
+    font-weight:bold;
+    font-style: normal;
+    src: local('Roboto'),
+        url('Roboto-Bold.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Roboto';
+    font-weight:medium;
+    font-style: normal;
+    src: local('Roboto'),
+        url('Roboto-Medium.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Roboto';
+    font-weight:normal;
+    font-style: normal;
+    src: local('Roboto'),
+        url('Roboto-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Roboto';
+    font-weight:100;
+    font-style: normal;
+    src: local('Roboto'),
+        url('Roboto-Thin.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Roboto';
+    font-weight:300;
+    font-style: normal;
+    src: local('Roboto'),
+        url('Roboto-Light.ttf') format('truetype');
+}
+
+/* apple */
+@font-face {
+    font-family: 'AppleSDGothicNeoR';
+    font-style: normal;
+    src: local('AppleSDGothicNeoR'),
+        url('AppleSDGothicNeoR.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'AppleSDGothicNeoSB';
+    font-style: normal;
+    src: local('AppleSDGothicNeoSB'),
+        url('AppleSDGothicNeoSB.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'AppleSDGothicNeoL';
+    font-style: normal;
+    src: local('AppleSDGothicNeoL'),
+        url('AppleSDGothicNeoL.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'AppleSDGothicNeoEB';
+    font-style: normal;
+    src: local('AppleSDGothicNeoEB'),
+        url('AppleSDGothicNeoEB.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'AppleSDGothicNeoB';
+    font-style: normal;
+    src: local('AppleSDGothicNeoB'),
+        url('AppleSDGothicNeoB.ttf') format('truetype');
+}
