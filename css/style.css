@@ -481,6 +481,7 @@
     top: 50%;
     transform: translate(-50%,-50%);
 }
+
 .con5 .circle1{
     width: 450px;
     height: 450px;
@@ -488,7 +489,7 @@
     background-color: unset;
     border: 1px solid #5C6AC4;
     animation: circle1 3.2s infinite linear;
-    left: 700px;
+    left: 720px;
     top: 260px;
     position: absolute;
 }
@@ -499,7 +500,7 @@
     background-color: unset;
     border: 1px solid #5C6AC4;
     animation: circle2 3.3s infinite linear;
-    left: 605px;
+    left: 625px;
     top: 160px;
     position: absolute;
 }
@@ -510,7 +511,7 @@
     background-color: unset;
     border: 1px solid #5C6AC4;
     animation: circle3 3.5s infinite linear;
-    left: 510px;
+    left: 530px;
     top: 60px;
     position: absolute;
 }
@@ -588,7 +589,9 @@
 }
 .con6 .logoimg{
     position: absolute;
-    top: 50%;
+    top: 49.3%;
+    width: 270px;
+    height: auto;
     left: 50%;
     transform: translate(-50%, -50%);
 }
