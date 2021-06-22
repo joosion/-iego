@@ -129,7 +129,7 @@
 .con3 .left1{
     position: absolute;
     left: 360px;
-    bottom: 290px;
+    bottom: 280px;
     width: 40px;
     height: 0px;
     border-top-left-radius: 30px;
@@ -139,7 +139,7 @@
 .con3 .left2{
     position: absolute;
     left: 530px;
-    bottom: 290px;
+    bottom: 280px;
     width: 40px;
     height: 0px;
     border-top-left-radius: 30px;
@@ -149,7 +149,7 @@
 .con3 .left3{
     position: absolute;
     left: 673px;
-    bottom: 290px;
+    bottom: 280px;
     width: 40px;
     height: 0px;
     border-top-left-radius: 30px;
@@ -159,7 +159,7 @@
 .con3 .left4{
     position: absolute;
     left: 810px;
-    bottom: 290px;
+    bottom: 280px;
     width: 40px;
     height: 0px;
     border-top-left-radius: 30px;
@@ -191,7 +191,7 @@
 .con3 .right1{
     position: absolute;
     right: 800px;
-    bottom: 290px;
+    bottom: 280px;
     width: 40px;
     height: 0px;
     border-top-left-radius: 30px;
@@ -201,7 +201,7 @@
 .con3 .right2{
     position: absolute;
     right: 621px;
-    bottom: 290px;
+    bottom: 280px;
     width: 40px;
     height: 0px;
     border-top-left-radius: 30px;
@@ -211,7 +211,7 @@
 .con3 .right3{
     position: absolute;
     right: 480px;
-    bottom: 290px;
+    bottom: 280px;
     width: 40px;
     height: 0px;
     border-top-left-radius: 30px;
@@ -221,7 +221,7 @@
 .con3 .right4{
     position: absolute;
     right: 345px;
-    bottom: 290px;
+    bottom: 280px;
     width: 40px;
     height: 0px;
     border-top-left-radius: 30px;
@@ -613,7 +613,7 @@
 }
 .con6 .wrap3{
     height: 0px;
-    bottom: 305px;
+    bottom: 292px;
     position: absolute;
     left:765px;
     width: 2px;
@@ -653,7 +653,7 @@
 }
 .con6 .wrap8{
     height: 0px;
-    bottom: 282px;
+    bottom: 272px;
     position: absolute;
     left:863px;
     width: 2px;
@@ -661,7 +661,7 @@
 }
 .con6 .wrap9{
     height: 0px;
-    bottom: 282px;
+    bottom: 272px;
     position: absolute;
     left:960px;
     width: 2px;
@@ -669,7 +669,7 @@
 }
 .con6 .wrap10{
     height: 0px;
-    bottom: 282px;
+    bottom: 272px;
     position: absolute;
     left:1055px;
     width: 2px;
@@ -677,9 +677,9 @@
 }
 .con6 .wrap11{
     height: 608px;
-    bottom: 193px;
+    bottom: 183px;
     position: absolute;
-    left:958px;
+    left:960px;
     opacity: 0;
     width: 2px;
     background-color: #ccc;
