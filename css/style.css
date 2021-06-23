@@ -5,6 +5,11 @@
     list-style: none;
     color: inherit;
 }
+.fp-enabled{
+    height: 100%;
+    max-height: 1080px !important;
+    min-height: 1080px !important;
+}
 .body{
     height:100%;
     max-height: 1080px;
