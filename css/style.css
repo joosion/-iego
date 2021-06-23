@@ -14,7 +14,10 @@
 #fp-nav li a.active span{
  background-color: #5C6AC4 !important;
 }
-
+.section{
+    height:100%;
+    max-height: 1080px;
+}
 .con1{
     margin: 0 auto;
     text-align: center;
@@ -68,6 +71,7 @@
 /* con2 */
 .con3{
     background-color: #F7F8FC;
+    position: relative;
 }
 .con3 .header{
     position: absolute;
@@ -247,6 +251,7 @@
 /* con3 */
 .con4{
     background-color: #F7F8FC;
+    position: relative;
 }
 .con4 .header{
     position: absolute;
