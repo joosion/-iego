@@ -78,6 +78,13 @@
     background-color: #F7F8FC;
     position: relative;
 }
+.con3left{
+    bottom: 250px;
+    left:290px;
+    height: 500px;
+    width: 650px;
+    position: absolute;
+}
 .con3 .header{
     position: absolute;
     font-family: 'SF Pro Display';
@@ -96,39 +103,48 @@
 }
 .con3 .con3leftline{
     position: absolute;
-    top: 690px;
+    bottom: 0px;
     transform: translateY(-50%);
-    width: 600px;
+    width: 650px;
     height: 5px;
+    font-size: 0;
+    margin: 0 auto;
+    padding: 0;
     background-color: #5C6AC4;
-    left: 300px;
+    left: 0px;
 }
 .con3 .con3rightline{
     position: absolute;
-    top: 690px;
+    bottom: 0px;
     transform: translateY(-50%);
-    width: 600px;
+    width: 650px;
     height: 5px;
+    font-size: 0;
+    margin: 0 auto;
+    padding: 0;
     background-color: #5C6AC4;
-    right: 300px;
+    left: 0px;
 }
 .con3 .answer1{
     display: flex;
     position: absolute;
-    left: 330px;
-    top: 710px;
+    left: 65px;
+    top: 530px;
     font-family: 'AppleSDGothicNeoR';
 }
+.con3 .answer1 li{
+    width: 106px;
+}
 .con3 .answer1 li:first-child{
-    margin-right: 70px;
+    margin-right: 57px;
     color: #5C6AC4;
 }
 .con3 .answer1 li:nth-child(2){
-    margin-right: 75px;
+    margin-right: 61px;
     color: #5C6AC4;
 }
 .con3 .answer1 li:nth-child(3){
-    margin-right: 65px;
+    margin-right: 28px;
     opacity: 0.5;
 }
 .con3 .answer1 li:nth-child(4){
@@ -137,8 +153,8 @@
 }
 .con3 .left1{
     position: absolute;
-    left: 360px;
-    bottom: 290px;
+    left: 100px;
+    bottom: 5px;
     width: 40px;
     height: 0px;
     border-top-left-radius: 30px;
@@ -147,8 +163,8 @@
 }
 .con3 .left2{
     position: absolute;
-    left: 530px;
-    bottom: 290px;
+    left: 250px;
+    bottom: 5px;
     width: 40px;
     height: 0px;
     border-top-left-radius: 30px;
@@ -157,8 +173,8 @@
 }
 .con3 .left3{
     position: absolute;
-    left: 673px;
-    bottom: 290px;
+    left: 400px;
+    bottom: 5px;
     width: 40px;
     height: 0px;
     border-top-left-radius: 30px;
@@ -167,8 +183,8 @@
 }
 .con3 .left4{
     position: absolute;
-    left: 810px;
-    bottom: 290px;
+    left: 550px;
+    bottom: 5px;
     width: 40px;
     height: 0px;
     border-top-left-radius: 30px;
@@ -178,29 +194,36 @@
 .con3 .answer2{
     display: flex;
     position: absolute;
-    right: 335px;
-    top: 710px;
+    left: 70px;
+    top: 530px;
     font-family: 'AppleSDGothicNeoR';
 }
 .con3 .answer2 li:first-child{
-    margin-right: 93px;
+    margin-right: 73px;
     color: #5C6AC4;
 }
 .con3 .answer2 li:nth-child(2){
-    margin-right: 93px;
+    margin-right: 100px;
     color: #5C6AC4;
 }
 .con3 .answer2 li:nth-child(3){
-    margin-right: 93px;
+    margin-right: 110px;
     opacity: 0.5;
 }
 .con3 .answer2 li:nth-child(4){
     opacity: 0.5;
 }
+.con3right{
+    bottom: 250px;
+    right:265px;
+    height: 500px;
+    width: 650px;
+    position: absolute;
+}
 .con3 .right1{
     position: absolute;
-    right: 800px;
-    bottom: 290px;
+    left: 100px;
+    bottom: 5px;
     width: 40px;
     height: 0px;
     border-top-left-radius: 30px;
@@ -209,8 +232,8 @@
 }
 .con3 .right2{
     position: absolute;
-    right: 621px;
-    bottom: 290px;
+    left: 250px;
+    bottom: 5px;
     width: 40px;
     height: 0px;
     border-top-left-radius: 30px;
@@ -219,8 +242,8 @@
 }
 .con3 .right3{
     position: absolute;
-    right: 480px;
-    bottom: 290px;
+    left: 400px;
+    bottom: 5px;
     width: 40px;
     height: 0px;
     border-top-left-radius: 30px;
@@ -229,8 +252,8 @@
 }
 .con3 .right4{
     position: absolute;
-    right: 345px;
-    bottom: 290px;
+    left: 550px;
+    bottom: 5px;
     width: 40px;
     height: 0px;
     border-top-left-radius: 30px;
@@ -288,8 +311,8 @@
 }
 .leftc1{
     position: absolute;
-    left:350px;
-    bottom: 300px;
+    left:90px;
+    bottom: 0px;
     opacity: 0;
 }
 .counter1{
@@ -310,8 +333,8 @@
 /* leftc1 */
 .leftc2{
     position: absolute;
-    left:520px;
-    bottom: 300px;
+    left:240px;
+    bottom: 0px;
     opacity: 0;
 }
 .counter2{
@@ -330,8 +353,8 @@
 /* leftc2 */
 .leftc3{
     position: absolute;
-    left:660px;
-    bottom: 300px;
+    left:390px;
+    bottom: 0px;
     opacity: 0;
 }
 .counter3{
@@ -348,8 +371,8 @@
 /* leftc3 */
 .leftc4{
     position: absolute;
-    left:805px;
-    bottom: 300px;
+    left:545px;
+    bottom: 0px;
     opacity: 0;
 }
 .counter4{
@@ -366,8 +389,8 @@
 /* leftc4 */
 .rightc1{
     position: absolute;
-    right:785px;
-    bottom:300px;
+    left:90px;
+    bottom: 0px;
     opacity: 0;
 }
 .counter5{
@@ -388,8 +411,8 @@
 /* right1 */
 .rightc2{
     position: absolute;
-    right:610px;
-    bottom:300px;
+    left:240px;
+    bottom:0px;
     opacity: 0;
 }
 .counter6{
@@ -410,8 +433,8 @@
 /* right2 */
 .rightc3{
     position: absolute;
-    right:470px;
-    bottom:300px;
+    left:390px;
+    bottom:0px;
     opacity: 0;
 }
 .counter7{
@@ -428,8 +451,8 @@
 /* right3 */
 .rightc4{
     position: absolute;
-    right:340px;
-    bottom:300px;
+    left:545px;
+    bottom:0px;
     opacity: 0;
 }
 .counter8{
@@ -473,6 +496,14 @@
     opacity:1;
     z-index: 9!important;
 }
+.con5 .bounce{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 600px;
+    height: 600px;
+    transform: translate(-50%,-50%);
+}
 .con5 .con5lefttxt{
     font-family: 'AppleSDGothicNeoEB';
     font-size: 30px;
@@ -498,9 +529,10 @@
     border-radius: 50%;
     background-color: unset;
     border: 1px solid #5C6AC4;
-    animation: circle1 3.2s infinite linear;
-    left: 720px;
-    top: 260px;
+    animation: circle1 3s infinite linear;
+    left: 14%;
+    top: 15%;
+    transform: translate(-50%,-50%);
     position: absolute;
 }
 .con5 .circle2{
@@ -509,9 +541,9 @@
     border-radius: 50%;
     background-color: unset;
     border: 1px solid #5C6AC4;
-    animation: circle2 3.3s infinite linear;
-    left: 625px;
-    top: 160px;
+    animation: circle2 3s infinite linear;
+    left: -2.3%;
+    top: -2%;
     position: absolute;
 }
 .con5 .circle3{
@@ -520,16 +552,15 @@
     border-radius: 50%;
     background-color: unset;
     border: 1px solid #5C6AC4;
-    animation: circle3 3.5s infinite linear;
-    left: 530px;
-    top: 60px;
+    animation: circle3 3s infinite linear;
+    left: -19%;
+    top: -19%;
     position: absolute;
 }
 
 @keyframes circle1 {
     0% {
         opacity: 0;
-        border-radius: 50%;
         transform: scale(1.2);
     }
 
@@ -600,12 +631,12 @@
 .con6 .logoimg{
     position: absolute;
     top: 49.3%;
-    width: 270px;
-    height: auto;
+    width: 283px;
+    height: auto+1px;
     left: 50%;
     transform: translate(-50%, -50%);
 }
-.con6 .wrap1{
+/* .con6 .wrap1{
     width: 0px;
     top: 291px;
     position: absolute;
@@ -726,7 +757,196 @@
     background-color: unset;
     border: 2px solid #ccc;
     opacity: 0;
+} */
+.trigger{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
 }
+svg .svg-elem-1 {
+    stroke-dashoffset: 442px;
+    stroke-dasharray: 442px;
+}
+
+svg.active .svg-elem-1 {
+    stroke-dashoffset: 0;
+    -webkit-transition: stroke-dashoffset 1s cubic-bezier(0.47, 0, 0.745, 0.715) 0s;
+    transition: stroke-dashoffset 1s cubic-bezier(0.47, 0, 0.745, 0.715) 0s;
+  }
+  
+  svg .svg-elem-2 {
+    stroke-dashoffset: 442px;
+    stroke-dasharray: 442px;
+  }
+  
+  svg.active .svg-elem-2 {
+    stroke-dashoffset: 0;
+    -webkit-transition: stroke-dashoffset 1s cubic-bezier(0.47, 0, 0.745, 0.715) 0.12s;
+    transition: stroke-dashoffset 1s cubic-bezier(0.47, 0, 0.745, 0.715) 0.12s;
+
+  }
+  
+  svg .svg-elem-3 {
+    stroke-dashoffset: 442px;
+    stroke-dasharray: 442px;
+  }
+  
+  svg.active .svg-elem-3 {
+    stroke-dashoffset: 0;
+    -webkit-transition: stroke-dashoffset 1s cubic-bezier(0.47, 0, 0.745, 0.715) 0.24s;
+    transition: stroke-dashoffset 1s cubic-bezier(0.47, 0, 0.745, 0.715) 0.24s;
+
+  }
+  
+  svg .svg-elem-4 {
+    stroke-dashoffset: 442px;
+    stroke-dasharray: 442px;
+  }
+  
+  svg.active .svg-elem-4 {
+    -webkit-transition: stroke-dashoffset 1s cubic-bezier(0.47, 0, 0.745, 0.715) 0.36s;
+    transition: stroke-dashoffset 1s cubic-bezier(0.47, 0, 0.745, 0.715) 0.36s;
+
+    stroke-dashoffset: 0;
+  }
+  
+  svg .svg-elem-5 {
+    stroke-dashoffset: 442px;
+    stroke-dasharray: 442px;
+  }
+  
+  svg.active .svg-elem-5 {
+    stroke-dashoffset: 0;
+    -webkit-transition: stroke-dashoffset 1s cubic-bezier(0.47, 0, 0.745, 0.715) 0.48s;
+    transition: stroke-dashoffset 1s cubic-bezier(0.47, 0, 0.745, 0.715) 0.48s;
+
+  }
+  
+  svg .svg-elem-6 {
+    stroke-dashoffset: 442px;
+    stroke-dasharray: 442px;
+  }
+  
+  svg.active .svg-elem-6 {
+    stroke-dashoffset: 0;
+    -webkit-transition: stroke-dashoffset 1s cubic-bezier(0.47, 0, 0.745, 0.715) 0.6s;
+    transition: stroke-dashoffset 1s cubic-bezier(0.47, 0, 0.745, 0.715) 0.6s;
+
+  }
+  
+  svg .svg-elem-7 {
+    stroke-dashoffset: 442px;
+    stroke-dasharray: 442px;
+
+  }
+  
+  svg.active .svg-elem-7 {
+    stroke-dashoffset: 0;
+    -webkit-transition: stroke-dashoffset 1s cubic-bezier(0.47, 0, 0.745, 0.715) 0.72s;
+    transition: stroke-dashoffset 1s cubic-bezier(0.47, 0, 0.745, 0.715) 0.72s;
+  }
+  
+  svg .svg-elem-8 {
+    stroke-dashoffset: 442px;
+    stroke-dasharray: 442px;
+
+  }
+  
+  svg.active .svg-elem-8 {
+    stroke-dashoffset: 0;
+    -webkit-transition: stroke-dashoffset 1s cubic-bezier(0.47, 0, 0.745, 0.715) 0.84s;
+    transition: stroke-dashoffset 1s cubic-bezier(0.47, 0, 0.745, 0.715) 0.84s;
+  }
+  
+  svg .svg-elem-9 {
+    stroke-dashoffset: 442px;
+    stroke-dasharray: 442px;
+  }
+  
+  svg.active .svg-elem-9 {
+    stroke-dashoffset: 0;
+    -webkit-transition: stroke-dashoffset 1s cubic-bezier(0.47, 0, 0.745, 0.715) 0.96s;
+            transition: stroke-dashoffset 1s cubic-bezier(0.47, 0, 0.745, 0.715) 0.96s;
+  }
+  
+  svg .svg-elem-10 {
+    stroke-dashoffset: 442px;
+    stroke-dasharray: 442px;
+  }
+  
+  svg.active .svg-elem-10 {
+    stroke-dashoffset: 0;
+    -webkit-transition: stroke-dashoffset 1s cubic-bezier(0.47, 0, 0.745, 0.715) 1.08s;
+            transition: stroke-dashoffset 1s cubic-bezier(0.47, 0, 0.745, 0.715) 1.08s;
+  }
+  
+  svg .svg-elem-11 {
+    stroke-dashoffset: 442px;
+    stroke-dasharray: 442px;
+  }
+  
+  svg.active .svg-elem-11 {
+    stroke-dashoffset: 0;
+    -webkit-transition: stroke-dashoffset 1s cubic-bezier(0.47, 0, 0.745, 0.715) 1.2s;
+            transition: stroke-dashoffset 1s cubic-bezier(0.47, 0, 0.745, 0.715) 1.2s;
+  }
+  
+  svg .svg-elem-12 {
+    stroke-dashoffset: 1258.6370614359173px;
+    stroke-dasharray: 1258.6370614359173px;
+  }
+  
+  svg.active .svg-elem-12 {
+    stroke-dashoffset: 0;
+    -webkit-transition: stroke-dashoffset 1s cubic-bezier(0.47, 0, 0.745, 0.715) 1.3199999999999998s;
+            transition: stroke-dashoffset 1s cubic-bezier(0.47, 0, 0.745, 0.715) 1.3199999999999998s;
+  }
+  
+  svg .svg-elem-13 {
+    stroke-dashoffset: 755.9822368615503px;
+    stroke-dasharray: 755.9822368615503px;
+  }
+  
+  svg.active .svg-elem-13 {
+    stroke-dashoffset: 0;
+    -webkit-transition: stroke-dashoffset 1s cubic-bezier(0.47, 0, 0.745, 0.715) 1.44s;
+            transition: stroke-dashoffset 1s cubic-bezier(0.47, 0, 0.745, 0.715) 1.44s;
+  }
+  
+  svg .svg-elem-14 {
+    stroke-dashoffset: 442px;
+    stroke-dasharray: 442px;
+  }
+  
+  svg.active .svg-elem-14 {
+    stroke-dashoffset: 0;
+    -webkit-transition: stroke-dashoffset 1s cubic-bezier(0.47, 0, 0.745, 0.715) 1.56s;
+            transition: stroke-dashoffset 1s cubic-bezier(0.47, 0, 0.745, 0.715) 1.56s;
+  }
+  
+  svg .svg-elem-15 {
+    stroke-dashoffset: 624.2539672851562px;
+    stroke-dasharray: 624.2539672851562px;
+  }
+  
+  svg.active .svg-elem-15 {
+    stroke-dashoffset: 0;
+    -webkit-transition: stroke-dashoffset 1s cubic-bezier(0.47, 0, 0.745, 0.715) 1.68s;
+            transition: stroke-dashoffset 1s cubic-bezier(0.47, 0, 0.745, 0.715) 1.68s;
+  }
+  
+  svg .svg-elem-16 {
+    stroke-dashoffset: 624.2539672851562px;
+    stroke-dasharray: 624.2539672851562px;
+  }
+  
+  svg.active .svg-elem-16 {
+    stroke-dashoffset: 0;
+    -webkit-transition: stroke-dashoffset 1s cubic-bezier(0.47, 0, 0.745, 0.715) 1.7999999999999998s;
+            transition: stroke-dashoffset 1s cubic-bezier(0.47, 0, 0.745, 0.715) 1.7999999999999998s;
+  }
+  
 .con6 .p1{
     position: absolute;
     left: 310px;

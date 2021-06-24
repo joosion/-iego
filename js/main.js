@@ -9,28 +9,14 @@ $(document).ready(function () {
     
         if($(b).hasClass("fp-viewing-0")){
             
-                $('.wrap1').animate({"width":"0px"});
-                $('.wrap2').animate({"width":"0px"});
-                $('.wrap3').animate({"height":"0px"});
-                $('.wrap4').animate({"height":"0px"});
-                $('.wrap5').animate({"width":"0px"});
-                $('.wrap6').animate({"width":"0px"});
-                $('.wrap7').animate({"width":"0px"});
-                $('.wrap8').animate({"height":"0px"});
-                $('.wrap9').animate({"height":"0px"});
-                $('.wrap10').animate({"height":"0px"});
-                $('.wrap11').animate({opacity:"0"});
-                $('.wrap12').animate({opacity:"0"});
-                $('.wrap13').animate({opacity:"0"});
-                $('.wrap14').animate({opacity:"0"});
-                $('.leftc1').animate({opacity:"0","top":"630px"});
-                $('.leftc2').animate({opacity:"0","top":"630px"});
-                $('.leftc3').animate({opacity:"0","top":"630px"});
-                $('.leftc4').animate({opacity:"0","top":"630px"});
-                $('.rightc1').animate({opacity:"0","top":"630px"});
-                $('.rightc2').animate({opacity:"0","top":"630px"});
-                $('.rightc3').animate({opacity:"0","top":"630px"});
-                $('.rightc4').animate({opacity:"0","top":"630px"});
+                $('.leftc1').animate({opacity:"0","bottom":"0px"});
+                $('.leftc2').animate({opacity:"0","top":"500px"});
+                $('.leftc3').animate({opacity:"0","top":"500px"});
+                $('.leftc4').animate({opacity:"0","top":"500px"});
+                $('.rightc1').animate({opacity:"0","top":"500px"});
+                $('.rightc2').animate({opacity:"0","top":"500px"});
+                $('.rightc3').animate({opacity:"0","top":"500px"});
+                $('.rightc4').animate({opacity:"0","top":"500px"});
                 $(".left1").stop() .animate({"height":"0px"})
                 $(".left2").stop() .animate({"height":"0px"})
                 $(".left3").stop() .animate({"height":"0px"})
@@ -88,34 +74,22 @@ $(document).ready(function () {
                 $('.con17pay').stop().animate({opacity:"0"});
                 $('.line14').stop().animate({"width":"0px"});
                 $('.con17payment').stop().animate({opacity:"0"});
+                $(".trigger svg").removeClass("active")
             
         }
 
         // con1
         if($(b).hasClass("fp-viewing-1")){
 
-                $('.wrap1').animate({"width":"0px"});
-                $('.wrap2').animate({"width":"0px"});
-                $('.wrap3').animate({"height":"0px"});
-                $('.wrap4').animate({"height":"0px"});
-                $('.wrap5').animate({"width":"0px"});
-                $('.wrap6').animate({"width":"0px"});
-                $('.wrap7').animate({"width":"0px"});
-                $('.wrap8').animate({"height":"0px"});
-                $('.wrap9').animate({"height":"0px"});
-                $('.wrap10').animate({"height":"0px"});
-                $('.wrap11').animate({opacity:"0"});
-                $('.wrap12').animate({opacity:"0"});
-                $('.wrap13').animate({opacity:"0"});
-                $('.wrap14').animate({opacity:"0"});
-                $('.leftc1').animate({opacity:"0","top":"630px"});
-                $('.leftc2').animate({opacity:"0","top":"630px"});
-                $('.leftc3').animate({opacity:"0","top":"630px"});
-                $('.leftc4').animate({opacity:"0","top":"630px"});
-                $('.rightc1').animate({opacity:"0","top":"630px"});
-                $('.rightc2').animate({opacity:"0","top":"630px"});
-                $('.rightc3').animate({opacity:"0","top":"630px"});
-                $('.rightc4').animate({opacity:"0","top":"630px"});
+
+                $('.leftc1').animate({opacity:"0","top":"500px"});
+                $('.leftc2').animate({opacity:"0","top":"500px"});
+                $('.leftc3').animate({opacity:"0","top":"500px"});
+                $('.leftc4').animate({opacity:"0","top":"500px"});
+                $('.rightc1').animate({opacity:"0","top":"500px"});
+                $('.rightc2').animate({opacity:"0","top":"500px"});
+                $('.rightc3').animate({opacity:"0","top":"500px"});
+                $('.rightc4').animate({opacity:"0","top":"500px"});
                 $(".left1").stop() .animate({"height":"0px"})
                 $(".left2").stop() .animate({"height":"0px"})
                 $(".left3").stop() .animate({"height":"0px"})
@@ -173,19 +147,20 @@ $(document).ready(function () {
                 $('.con17pay').stop().animate({opacity:"0"});
                 $('.line14').stop().animate({"width":"0px"});
                 $('.con17payment').stop().animate({opacity:"0"});
+                $(".trigger svg").removeClass("active")
             
         }
         // con2
         if($(b).hasClass("fp-viewing-2")){
             
-            $('.leftc1').animate({opacity:"1","top":"330px"},1800);
-            $('.leftc2').animate({opacity:"1","top":"410px"},1300);
-            $('.leftc3').animate({opacity:"0.5","top":"535px"},900);
-            $('.leftc4').animate({opacity:"0.5","top":"620px"},200);
-            $('.rightc1').animate({opacity:"1","top":"380px"},1800);
-            $('.rightc2').animate({opacity:"1","top":"430px"},1300);
-            $('.rightc3').animate({opacity:"0.5","top":"535px"},900);
-            $('.rightc4').animate({opacity:"0.5","top":"600px"},200);
+            $('.leftc1').animate({opacity:"1","top":"130px"},1800);
+            $('.leftc2').animate({opacity:"1","top":"210px"},1300);
+            $('.leftc3').animate({opacity:"0.5","top":"330px"},900);
+            $('.leftc4').animate({opacity:"0.5","top":"410px"},200);
+            $('.rightc1').animate({opacity:"1","top":"185px"},1800);
+            $('.rightc2').animate({opacity:"1","top":"235px"},1300);
+            $('.rightc3').animate({opacity:"0.5","top":"335px"},900);
+            $('.rightc4').animate({opacity:"0.5","top":"395px"},200);
             $(".left1").stop().animate({"height":"300px"},1800)
             $(".left2").stop().animate({"height":"220px"},1300)
             $(".left3").stop().animate({"height":"100px"},900)
@@ -203,20 +178,6 @@ $(document).ready(function () {
             $('.counter7').counterUp({time: 800});
             $('.counter8').counterUp({time: 100});
 
-                $('.wrap1').animate({"width":"0px"});
-                $('.wrap2').animate({"width":"0px"});
-                $('.wrap3').animate({"height":"0px"});
-                $('.wrap4').animate({"height":"0px"});
-                $('.wrap5').animate({"width":"0px"});
-                $('.wrap6').animate({"width":"0px"});
-                $('.wrap7').animate({"width":"0px"});
-                $('.wrap8').animate({"height":"0px"});
-                $('.wrap9').animate({"height":"0px"});
-                $('.wrap10').animate({"height":"0px"});
-                $('.wrap11').animate({opacity:"0"});
-                $('.wrap12').animate({opacity:"0"});
-                $('.wrap13').animate({opacity:"0"});
-                $('.wrap14').animate({opacity:"0"});
                 $('.line').animate({"width":"0px"});
                 $('.p1').animate({opacity:"0"});
                 $('.line2').animate({"width":"0px"});
@@ -265,38 +226,28 @@ $(document).ready(function () {
                 $('.line13').stop().animate({"width":"0px"});
                 $('.con17pay').stop().animate({opacity:"0"});
                 $('.line14').stop().animate({"width":"0px"});
+                $(".trigger svg").removeClass("active");
                 $('.con17payment').stop().animate({opacity:"0"});
+                $(".trigger svg").removeClass("active")
             
         }
         // con3
         if($(b).hasClass("fp-viewing-3")){
 
+
+
                 $('.line').animate({"width":"0px"});
                 $('.p1').animate({opacity:"0"});
                 $('.line2').animate({"width":"0px"});
                 $('.p2').animate({opacity:"0"});
-                $('.wrap1').animate({"width":"0px"});
-                $('.wrap2').animate({"width":"0px"});
-                $('.wrap3').animate({"height":"0px"});
-                $('.wrap4').animate({"height":"0px"});
-                $('.wrap5').animate({"width":"0px"});
-                $('.wrap6').animate({"width":"0px"});
-                $('.wrap7').animate({"width":"0px"});
-                $('.wrap8').animate({"height":"0px"});
-                $('.wrap9').animate({"height":"0px"});
-                $('.wrap10').animate({"height":"0px"});
-                $('.wrap11').animate({opacity:"0"});
-                $('.wrap12').animate({opacity:"0"});
-                $('.wrap13').animate({opacity:"0"});
-                $('.wrap14').animate({opacity:"0"});
-                $('.leftc1').animate({opacity:"0","top":"630px"});
-                $('.leftc2').animate({opacity:"0","top":"630px"});
-                $('.leftc3').animate({opacity:"0","top":"630px"});
-                $('.leftc4').animate({opacity:"0","top":"630px"});
-                $('.rightc1').animate({opacity:"0","top":"630px"});
-                $('.rightc2').animate({opacity:"0","top":"630px"});
-                $('.rightc3').animate({opacity:"0","top":"630px"});
-                $('.rightc4').animate({opacity:"0","top":"630px"});
+                $('.leftc1').animate({opacity:"0","top":"500px"});
+                $('.leftc2').animate({opacity:"0","top":"500px"});
+                $('.leftc3').animate({opacity:"0","top":"500px"});
+                $('.leftc4').animate({opacity:"0","top":"500px"});
+                $('.rightc1').animate({opacity:"0","top":"500px"});
+                $('.rightc2').animate({opacity:"0","top":"500px"});
+                $('.rightc3').animate({opacity:"0","top":"500px"});
+                $('.rightc4').animate({opacity:"0","top":"500px"});
                 $(".left1").stop() .animate({"height":"0px"})
                 $(".left2").stop() .animate({"height":"0px"})
                 $(".left3").stop() .animate({"height":"0px"})
@@ -347,6 +298,7 @@ $(document).ready(function () {
                 $('.line10').stop().animate({"width":"0px"});
                 $('.con15list').stop().animate({opacity:"0"});
                 $('.line13').stop().animate({"width":"0px"});
+                $(".trigger svg").removeClass("active")
                 $('.con17pay').stop().animate({opacity:"0"});
                 $('.line14').stop().animate({"width":"0px"});
                 $('.con17payment').stop().animate({opacity:"0"});
@@ -359,28 +311,14 @@ $(document).ready(function () {
                 $('.p1').animate({opacity:"0"});
                 $('.line2').animate({"width":"0px"});
                 $('.p2').animate({opacity:"0"});
-                $('.wrap1').animate({"width":"0px"});
-                $('.wrap2').animate({"width":"0px"});
-                $('.wrap3').animate({"height":"0px"});
-                $('.wrap4').animate({"height":"0px"});
-                $('.wrap5').animate({"width":"0px"});
-                $('.wrap6').animate({"width":"0px"});
-                $('.wrap7').animate({"width":"0px"});
-                $('.wrap8').animate({"height":"0px"});
-                $('.wrap9').animate({"height":"0px"});
-                $('.wrap10').animate({"height":"0px"});
-                $('.wrap11').animate({opacity:"0"});
-                $('.wrap12').animate({opacity:"0"});
-                $('.wrap13').animate({opacity:"0"});
-                $('.wrap14').animate({opacity:"0"});
-                $('.leftc1').animate({opacity:"0","top":"630px"});
-                $('.leftc2').animate({opacity:"0","top":"630px"});
-                $('.leftc3').animate({opacity:"0","top":"630px"});
-                $('.leftc4').animate({opacity:"0","top":"630px"});
-                $('.rightc1').animate({opacity:"0","top":"630px"});
-                $('.rightc2').animate({opacity:"0","top":"630px"});
-                $('.rightc3').animate({opacity:"0","top":"630px"});
-                $('.rightc4').animate({opacity:"0","top":"630px"});
+                $('.leftc1').animate({opacity:"0","top":"500px"});
+                $('.leftc2').animate({opacity:"0","top":"500px"});
+                $('.leftc3').animate({opacity:"0","top":"500px"});
+                $('.leftc4').animate({opacity:"0","top":"500px"});
+                $('.rightc1').animate({opacity:"0","top":"500px"});
+                $('.rightc2').animate({opacity:"0","top":"500px"});
+                $('.rightc3').animate({opacity:"0","top":"500px"});
+                $('.rightc4').animate({opacity:"0","top":"500px"});
                 $(".left1").stop() .animate({"height":"0px"})
                 $(".left2").stop() .animate({"height":"0px"})
                 $(".left3").stop() .animate({"height":"0px"})
@@ -433,38 +371,27 @@ $(document).ready(function () {
                 $('.line13').stop().animate({"width":"0px"});
                 $('.con17pay').stop().animate({opacity:"0"});
                 $('.line14').stop().animate({"width":"0px"});
+                $(".trigger svg").removeClass("active")
                 $('.con17payment').stop().animate({opacity:"0"});
         }
         // con5
         if($(b).hasClass("fp-viewing-5")){
-            $('.wrap1').animate({"width":"388px"},400);
-            $('.wrap2').animate({"width":"387px"},400);
-            $('.wrap3').delay(400).animate({"height":"384px"},400);
-            $('.wrap4').delay(400).animate({"height":"384px"},400);
-            $('.wrap5').delay(800).animate({"width":"428px"},400);
-            $('.wrap6').delay(1200).animate({"width":"428px"},400);
-            $('.wrap7').delay(1600).animate({"width":"428px"},400);
-            $('.wrap8').delay(2000).animate({"height":"428px"},400);
-            $('.wrap9').delay(2400).animate({"height":"428px"},400);
-            $('.wrap10').delay(2800).animate({"height":"428px"},400);
-            $('.wrap11').delay(3200).animate({opacity:"1"},400);
-            $('.wrap12').delay(3600).animate({opacity:"1"},400);
-            $('.wrap13').delay(4000).animate({opacity:"1"},400);
-            $('.wrap14').delay(4400).animate({opacity:"1"},400);
-            $('.line').delay(3200).animate({"width":"450px"},400);
-            $('.p1').delay(3600).animate({opacity:"1"},400);
-            $('.line2').delay(3200).animate({"width":"450px"},400);
-            $('.p2').delay(3600).animate({opacity:"1"},400);
+                $(".trigger svg").addClass("active")
+
+            $('.line').delay(2900).animate({"width":"450px"},400);
+            $('.p1').delay(3300).animate({opacity:"1"},400);
+            $('.line2').delay(2900).animate({"width":"450px"},400);
+            $('.p2').delay(3300).animate({opacity:"1"},400);
             
 
-                $('.leftc1').animate({opacity:"0","top":"630px"});
-                $('.leftc2').animate({opacity:"0","top":"630px"});
-                $('.leftc3').animate({opacity:"0","top":"630px"});
-                $('.leftc4').animate({opacity:"0","top":"630px"});
-                $('.rightc1').animate({opacity:"0","top":"630px"});
-                $('.rightc2').animate({opacity:"0","top":"630px"});
-                $('.rightc3').animate({opacity:"0","top":"630px"});
-                $('.rightc4').animate({opacity:"0","top":"630px"});
+                $('.leftc1').animate({opacity:"0","top":"500px"});
+                $('.leftc2').animate({opacity:"0","top":"500px"});
+                $('.leftc3').animate({opacity:"0","top":"500px"});
+                $('.leftc4').animate({opacity:"0","top":"500px"});
+                $('.rightc1').animate({opacity:"0","top":"500px"});
+                $('.rightc2').animate({opacity:"0","top":"500px"});
+                $('.rightc3').animate({opacity:"0","top":"500px"});
+                $('.rightc4').animate({opacity:"0","top":"500px"});
                 $(".left1").stop() .animate({"height":"0px"})
                 $(".left2").stop() .animate({"height":"0px"})
                 $(".left3").stop() .animate({"height":"0px"})
@@ -522,28 +449,15 @@ $(document).ready(function () {
         // con6
         if($(b).hasClass("fp-viewing-6")){
 
-                $('.wrap1').animate({"width":"0px"});
-                $('.wrap2').animate({"width":"0px"});
-                $('.wrap3').animate({"height":"0px"});
-                $('.wrap4').animate({"height":"0px"});
-                $('.wrap5').animate({"width":"0px"});
-                $('.wrap6').animate({"width":"0px"});
-                $('.wrap7').animate({"width":"0px"});
-                $('.wrap8').animate({"height":"0px"});
-                $('.wrap9').animate({"height":"0px"});
-                $('.wrap10').animate({"height":"0px"});
-                $('.wrap11').animate({opacity:"0"});
-                $('.wrap12').animate({opacity:"0"});
-                $('.wrap13').animate({opacity:"0"});
-                $('.wrap14').animate({opacity:"0"});
-                $('.leftc1').animate({opacity:"0","top":"630px"});
-                $('.leftc2').animate({opacity:"0","top":"630px"});
-                $('.leftc3').animate({opacity:"0","top":"630px"});
-                $('.leftc4').animate({opacity:"0","top":"630px"});
-                $('.rightc1').animate({opacity:"0","top":"630px"});
-                $('.rightc2').animate({opacity:"0","top":"630px"});
-                $('.rightc3').animate({opacity:"0","top":"630px"});
-                $('.rightc4').animate({opacity:"0","top":"630px"});
+                $(".trigger svg").removeClass("active")
+                $('.leftc1').animate({opacity:"0","top":"500px"});
+                $('.leftc2').animate({opacity:"0","top":"500px"});
+                $('.leftc3').animate({opacity:"0","top":"500px"});
+                $('.leftc4').animate({opacity:"0","top":"500px"});
+                $('.rightc1').animate({opacity:"0","top":"500px"});
+                $('.rightc2').animate({opacity:"0","top":"500px"});
+                $('.rightc3').animate({opacity:"0","top":"500px"});
+                $('.rightc4').animate({opacity:"0","top":"500px"});
                 $(".left1").stop() .animate({"height":"0px"})
                 $(".left2").stop() .animate({"height":"0px"})
                 $(".left3").stop() .animate({"height":"0px"})
@@ -622,28 +536,15 @@ $(document).ready(function () {
             $('.s10').stop().delay(4800).animate({"height":"17px"},400);
             $('.con8-6').stop().delay(5200).animate({opacity:"1"},400);
 
-                $('.wrap1').animate({"width":"0px"});
-                $('.wrap2').animate({"width":"0px"});
-                $('.wrap3').animate({"height":"0px"});
-                $('.wrap4').animate({"height":"0px"});
-                $('.wrap5').animate({"width":"0px"});
-                $('.wrap6').animate({"width":"0px"});
-                $('.wrap7').animate({"width":"0px"});
-                $('.wrap8').animate({"height":"0px"});
-                $('.wrap9').animate({"height":"0px"});
-                $('.wrap10').animate({"height":"0px"});
-                $('.wrap11').animate({opacity:"0"});
-                $('.wrap12').animate({opacity:"0"});
-                $('.wrap13').animate({opacity:"0"});
-                $('.wrap14').animate({opacity:"0"});
-                $('.leftc1').animate({opacity:"0","top":"630px"});
-                $('.leftc2').animate({opacity:"0","top":"630px"});
-                $('.leftc3').animate({opacity:"0","top":"630px"});
-                $('.leftc4').animate({opacity:"0","top":"630px"});
-                $('.rightc1').animate({opacity:"0","top":"630px"});
-                $('.rightc2').animate({opacity:"0","top":"630px"});
-                $('.rightc3').animate({opacity:"0","top":"630px"});
-                $('.rightc4').animate({opacity:"0","top":"630px"});
+            $(".trigger svg").removeClass("active")
+                $('.leftc1').animate({opacity:"0","top":"500px"});
+                $('.leftc2').animate({opacity:"0","top":"500px"});
+                $('.leftc3').animate({opacity:"0","top":"500px"});
+                $('.leftc4').animate({opacity:"0","top":"500px"});
+                $('.rightc1').animate({opacity:"0","top":"500px"});
+                $('.rightc2').animate({opacity:"0","top":"500px"});
+                $('.rightc3').animate({opacity:"0","top":"500px"});
+                $('.rightc4').animate({opacity:"0","top":"500px"});
                 $(".left1").stop() .animate({"height":"0px"})
                 $(".left2").stop() .animate({"height":"0px"})
                 $(".left3").stop() .animate({"height":"0px"})
@@ -691,28 +592,15 @@ $(document).ready(function () {
         
         if($(b).hasClass("fp-viewing-8")){
             
-                $('.wrap1').animate({"width":"0px"});
-                $('.wrap2').animate({"width":"0px"});
-                $('.wrap3').animate({"height":"0px"});
-                $('.wrap4').animate({"height":"0px"});
-                $('.wrap5').animate({"width":"0px"});
-                $('.wrap6').animate({"width":"0px"});
-                $('.wrap7').animate({"width":"0px"});
-                $('.wrap8').animate({"height":"0px"});
-                $('.wrap9').animate({"height":"0px"});
-                $('.wrap10').animate({"height":"0px"});
-                $('.wrap11').animate({opacity:"0"});
-                $('.wrap12').animate({opacity:"0"});
-                $('.wrap13').animate({opacity:"0"});
-                $('.wrap14').animate({opacity:"0"});
-                $('.leftc1').animate({opacity:"0","top":"630px"});
-                $('.leftc2').animate({opacity:"0","top":"630px"});
-                $('.leftc3').animate({opacity:"0","top":"630px"});
-                $('.leftc4').animate({opacity:"0","top":"630px"});
-                $('.rightc1').animate({opacity:"0","top":"630px"});
-                $('.rightc2').animate({opacity:"0","top":"630px"});
-                $('.rightc3').animate({opacity:"0","top":"630px"});
-                $('.rightc4').animate({opacity:"0","top":"630px"});
+                $(".trigger svg").removeClass("active")
+                $('.leftc1').animate({opacity:"0","top":"500px"});
+                $('.leftc2').animate({opacity:"0","top":"500px"});
+                $('.leftc3').animate({opacity:"0","top":"500px"});
+                $('.leftc4').animate({opacity:"0","top":"500px"});
+                $('.rightc1').animate({opacity:"0","top":"500px"});
+                $('.rightc2').animate({opacity:"0","top":"500px"});
+                $('.rightc3').animate({opacity:"0","top":"500px"});
+                $('.rightc4').animate({opacity:"0","top":"500px"});
                 $(".left1").stop() .animate({"height":"0px"})
                 $(".left2").stop() .animate({"height":"0px"})
                 $(".left3").stop() .animate({"height":"0px"})
@@ -775,28 +663,15 @@ $(document).ready(function () {
 
         if($(b).hasClass("fp-viewing-9")){
             
-                $('.wrap1').animate({"width":"0px"});
-                $('.wrap2').animate({"width":"0px"});
-                $('.wrap3').animate({"height":"0px"});
-                $('.wrap4').animate({"height":"0px"});
-                $('.wrap5').animate({"width":"0px"});
-                $('.wrap6').animate({"width":"0px"});
-                $('.wrap7').animate({"width":"0px"});
-                $('.wrap8').animate({"height":"0px"});
-                $('.wrap9').animate({"height":"0px"});
-                $('.wrap10').animate({"height":"0px"});
-                $('.wrap11').animate({opacity:"0"});
-                $('.wrap12').animate({opacity:"0"});
-                $('.wrap13').animate({opacity:"0"});
-                $('.wrap14').animate({opacity:"0"});
-                $('.leftc1').animate({opacity:"0","top":"630px"});
-                $('.leftc2').animate({opacity:"0","top":"630px"});
-                $('.leftc3').animate({opacity:"0","top":"630px"});
-                $('.leftc4').animate({opacity:"0","top":"630px"});
-                $('.rightc1').animate({opacity:"0","top":"630px"});
-                $('.rightc2').animate({opacity:"0","top":"630px"});
-                $('.rightc3').animate({opacity:"0","top":"630px"});
-                $('.rightc4').animate({opacity:"0","top":"630px"});
+                $(".trigger svg").removeClass("active")
+                $('.leftc1').animate({opacity:"0","top":"500px"});
+                $('.leftc2').animate({opacity:"0","top":"500px"});
+                $('.leftc3').animate({opacity:"0","top":"500px"});
+                $('.leftc4').animate({opacity:"0","top":"500px"});
+                $('.rightc1').animate({opacity:"0","top":"500px"});
+                $('.rightc2').animate({opacity:"0","top":"500px"});
+                $('.rightc3').animate({opacity:"0","top":"500px"});
+                $('.rightc4').animate({opacity:"0","top":"500px"});
                 $(".left1").stop() .animate({"height":"0px"})
                 $(".left2").stop() .animate({"height":"0px"})
                 $(".left3").stop() .animate({"height":"0px"})
@@ -858,28 +733,15 @@ $(document).ready(function () {
         // con10
         if($(b).hasClass("fp-viewing-10")){
             
-                $('.wrap1').animate({"width":"0px"});
-                $('.wrap2').animate({"width":"0px"});
-                $('.wrap3').animate({"height":"0px"});
-                $('.wrap4').animate({"height":"0px"});
-                $('.wrap5').animate({"width":"0px"});
-                $('.wrap6').animate({"width":"0px"});
-                $('.wrap7').animate({"width":"0px"});
-                $('.wrap8').animate({"height":"0px"});
-                $('.wrap9').animate({"height":"0px"});
-                $('.wrap10').animate({"height":"0px"});
-                $('.wrap11').animate({opacity:"0"});
-                $('.wrap12').animate({opacity:"0"});
-                $('.wrap13').animate({opacity:"0"});
-                $('.wrap14').animate({opacity:"0"});
-                $('.leftc1').animate({opacity:"0","top":"630px"});
-                $('.leftc2').animate({opacity:"0","top":"630px"});
-                $('.leftc3').animate({opacity:"0","top":"630px"});
-                $('.leftc4').animate({opacity:"0","top":"630px"});
-                $('.rightc1').animate({opacity:"0","top":"630px"});
-                $('.rightc2').animate({opacity:"0","top":"630px"});
-                $('.rightc3').animate({opacity:"0","top":"630px"});
-                $('.rightc4').animate({opacity:"0","top":"630px"});
+                $(".trigger svg").removeClass("active")
+                $('.leftc1').animate({opacity:"0","top":"500px"});
+                $('.leftc2').animate({opacity:"0","top":"500px"});
+                $('.leftc3').animate({opacity:"0","top":"500px"});
+                $('.leftc4').animate({opacity:"0","top":"500px"});
+                $('.rightc1').animate({opacity:"0","top":"500px"});
+                $('.rightc2').animate({opacity:"0","top":"500px"});
+                $('.rightc3').animate({opacity:"0","top":"500px"});
+                $('.rightc4').animate({opacity:"0","top":"500px"});
                 $(".left1").stop() .animate({"height":"0px"})
                 $(".left2").stop() .animate({"height":"0px"})
                 $(".left3").stop() .animate({"height":"0px"})
@@ -946,28 +808,15 @@ $(document).ready(function () {
             $('.con12supp').stop().delay(1500).animate({opacity:"1"},500);
 
             
-                $('.wrap1').animate({"width":"0px"});
-                $('.wrap2').animate({"width":"0px"});
-                $('.wrap3').animate({"height":"0px"});
-                $('.wrap4').animate({"height":"0px"});
-                $('.wrap5').animate({"width":"0px"});
-                $('.wrap6').animate({"width":"0px"});
-                $('.wrap7').animate({"width":"0px"});
-                $('.wrap8').animate({"height":"0px"});
-                $('.wrap9').animate({"height":"0px"});
-                $('.wrap10').animate({"height":"0px"});
-                $('.wrap11').animate({opacity:"0"});
-                $('.wrap12').animate({opacity:"0"});
-                $('.wrap13').animate({opacity:"0"});
-                $('.wrap14').animate({opacity:"0"});
-                $('.leftc1').animate({opacity:"0","top":"630px"});
-                $('.leftc2').animate({opacity:"0","top":"630px"});
-                $('.leftc3').animate({opacity:"0","top":"630px"});
-                $('.leftc4').animate({opacity:"0","top":"630px"});
-                $('.rightc1').animate({opacity:"0","top":"630px"});
-                $('.rightc2').animate({opacity:"0","top":"630px"});
-                $('.rightc3').animate({opacity:"0","top":"630px"});
-                $('.rightc4').animate({opacity:"0","top":"630px"});
+            $(".trigger svg").removeClass("active")
+                $('.leftc1').animate({opacity:"0","top":"500px"});
+                $('.leftc2').animate({opacity:"0","top":"500px"});
+                $('.leftc3').animate({opacity:"0","top":"500px"});
+                $('.leftc4').animate({opacity:"0","top":"500px"});
+                $('.rightc1').animate({opacity:"0","top":"500px"});
+                $('.rightc2').animate({opacity:"0","top":"500px"});
+                $('.rightc3').animate({opacity:"0","top":"500px"});
+                $('.rightc4').animate({opacity:"0","top":"500px"});
                 $(".left1").stop() .animate({"height":"0px"})
                 $(".left2").stop() .animate({"height":"0px"})
                 $(".left3").stop() .animate({"height":"0px"})
@@ -1032,28 +881,15 @@ $(document).ready(function () {
          $('.line6').stop().delay(1500).animate({"width":"470px"},500);
          $('.con13ex').stop().delay(2000).animate({opacity:"1"},500);
 
-                $('.wrap1').animate({"width":"0px"});
-                $('.wrap2').animate({"width":"0px"});
-                $('.wrap3').animate({"height":"0px"});
-                $('.wrap4').animate({"height":"0px"});
-                $('.wrap5').animate({"width":"0px"});
-                $('.wrap6').animate({"width":"0px"});
-                $('.wrap7').animate({"width":"0px"});
-                $('.wrap8').animate({"height":"0px"});
-                $('.wrap9').animate({"height":"0px"});
-                $('.wrap10').animate({"height":"0px"});
-                $('.wrap11').animate({opacity:"0"});
-                $('.wrap12').animate({opacity:"0"});
-                $('.wrap13').animate({opacity:"0"});
-                $('.wrap14').animate({opacity:"0"});
-                $('.leftc1').animate({opacity:"0","top":"630px"});
-                $('.leftc2').animate({opacity:"0","top":"630px"});
-                $('.leftc3').animate({opacity:"0","top":"630px"});
-                $('.leftc4').animate({opacity:"0","top":"630px"});
-                $('.rightc1').animate({opacity:"0","top":"630px"});
-                $('.rightc2').animate({opacity:"0","top":"630px"});
-                $('.rightc3').animate({opacity:"0","top":"630px"});
-                $('.rightc4').animate({opacity:"0","top":"630px"});
+         $(".trigger svg").removeClass("active")
+                $('.leftc1').animate({opacity:"0","top":"500px"});
+                $('.leftc2').animate({opacity:"0","top":"500px"});
+                $('.leftc3').animate({opacity:"0","top":"500px"});
+                $('.leftc4').animate({opacity:"0","top":"500px"});
+                $('.rightc1').animate({opacity:"0","top":"500px"});
+                $('.rightc2').animate({opacity:"0","top":"500px"});
+                $('.rightc3').animate({opacity:"0","top":"500px"});
+                $('.rightc4').animate({opacity:"0","top":"500px"});
                 $(".left1").stop() .animate({"height":"0px"})
                 $(".left2").stop() .animate({"height":"0px"})
                 $(".left3").stop() .animate({"height":"0px"})
@@ -1114,28 +950,15 @@ $(document).ready(function () {
         $('.line8').stop().delay(1000).animate({"width":"480px"},500);
         $('.con14acc').stop().delay(1500).animate({opacity:"1"},500);
             
-                $('.wrap1').animate({"width":"0px"});
-                $('.wrap2').animate({"width":"0px"});
-                $('.wrap3').animate({"height":"0px"});
-                $('.wrap4').animate({"height":"0px"});
-                $('.wrap5').animate({"width":"0px"});
-                $('.wrap6').animate({"width":"0px"});
-                $('.wrap7').animate({"width":"0px"});
-                $('.wrap8').animate({"height":"0px"});
-                $('.wrap9').animate({"height":"0px"});
-                $('.wrap10').animate({"height":"0px"});
-                $('.wrap11').animate({opacity:"0"});
-                $('.wrap12').animate({opacity:"0"});
-                $('.wrap13').animate({opacity:"0"});
-                $('.wrap14').animate({opacity:"0"});
-                $('.leftc1').animate({opacity:"0","top":"630px"});
-                $('.leftc2').animate({opacity:"0","top":"630px"});
-                $('.leftc3').animate({opacity:"0","top":"630px"});
-                $('.leftc4').animate({opacity:"0","top":"630px"});
-                $('.rightc1').animate({opacity:"0","top":"630px"});
-                $('.rightc2').animate({opacity:"0","top":"630px"});
-                $('.rightc3').animate({opacity:"0","top":"630px"});
-                $('.rightc4').animate({opacity:"0","top":"630px"});
+        $(".trigger svg").removeClass("active")
+                $('.leftc1').animate({opacity:"0","top":"500px"});
+                $('.leftc2').animate({opacity:"0","top":"500px"});
+                $('.leftc3').animate({opacity:"0","top":"500px"});
+                $('.leftc4').animate({opacity:"0","top":"500px"});
+                $('.rightc1').animate({opacity:"0","top":"500px"});
+                $('.rightc2').animate({opacity:"0","top":"500px"});
+                $('.rightc3').animate({opacity:"0","top":"500px"});
+                $('.rightc4').animate({opacity:"0","top":"500px"});
                 $(".left1").stop() .animate({"height":"0px"})
                 $(".left2").stop() .animate({"height":"0px"})
                 $(".left3").stop() .animate({"height":"0px"})
@@ -1200,28 +1023,15 @@ $(document).ready(function () {
         $('.con15list').stop().delay(2000).animate({opacity:"1"},500);
     
             
-                $('.wrap1').animate({"width":"0px"});
-                $('.wrap2').animate({"width":"0px"});
-                $('.wrap3').animate({"height":"0px"});
-                $('.wrap4').animate({"height":"0px"});
-                $('.wrap5').animate({"width":"0px"});
-                $('.wrap6').animate({"width":"0px"});
-                $('.wrap7').animate({"width":"0px"});
-                $('.wrap8').animate({"height":"0px"});
-                $('.wrap9').animate({"height":"0px"});
-                $('.wrap10').animate({"height":"0px"});
-                $('.wrap11').animate({opacity:"0"});
-                $('.wrap12').animate({opacity:"0"});
-                $('.wrap13').animate({opacity:"0"});
-                $('.wrap14').animate({opacity:"0"});
-                $('.leftc1').animate({opacity:"0","top":"630px"});
-                $('.leftc2').animate({opacity:"0","top":"630px"});
-                $('.leftc3').animate({opacity:"0","top":"630px"});
-                $('.leftc4').animate({opacity:"0","top":"630px"});
-                $('.rightc1').animate({opacity:"0","top":"630px"});
-                $('.rightc2').animate({opacity:"0","top":"630px"});
-                $('.rightc3').animate({opacity:"0","top":"630px"});
-                $('.rightc4').animate({opacity:"0","top":"630px"});
+        $(".trigger svg").removeClass("active")
+                $('.leftc1').animate({opacity:"0","top":"500px"});
+                $('.leftc2').animate({opacity:"0","top":"500px"});
+                $('.leftc3').animate({opacity:"0","top":"500px"});
+                $('.leftc4').animate({opacity:"0","top":"500px"});
+                $('.rightc1').animate({opacity:"0","top":"500px"});
+                $('.rightc2').animate({opacity:"0","top":"500px"});
+                $('.rightc3').animate({opacity:"0","top":"500px"});
+                $('.rightc4').animate({opacity:"0","top":"500px"});
                 $(".left1").stop() .animate({"height":"0px"})
                 $(".left2").stop() .animate({"height":"0px"})
                 $(".left3").stop() .animate({"height":"0px"})
@@ -1283,28 +1093,15 @@ $(document).ready(function () {
         $('.line12').stop().delay(1500).animate({"width":"470px"},500);
         $('.con16de').stop().delay(2000).animate({opacity:"1"},500);
             
-                $('.wrap1').animate({"width":"0px"});
-                $('.wrap2').animate({"width":"0px"});
-                $('.wrap3').animate({"height":"0px"});
-                $('.wrap4').animate({"height":"0px"});
-                $('.wrap5').animate({"width":"0px"});
-                $('.wrap6').animate({"width":"0px"});
-                $('.wrap7').animate({"width":"0px"});
-                $('.wrap8').animate({"height":"0px"});
-                $('.wrap9').animate({"height":"0px"});
-                $('.wrap10').animate({"height":"0px"});
-                $('.wrap11').animate({opacity:"0"});
-                $('.wrap12').animate({opacity:"0"});
-                $('.wrap13').animate({opacity:"0"});
-                $('.wrap14').animate({opacity:"0"});
-                $('.leftc1').animate({opacity:"0","top":"630px"});
-                $('.leftc2').animate({opacity:"0","top":"630px"});
-                $('.leftc3').animate({opacity:"0","top":"630px"});
-                $('.leftc4').animate({opacity:"0","top":"630px"});
-                $('.rightc1').animate({opacity:"0","top":"630px"});
-                $('.rightc2').animate({opacity:"0","top":"630px"});
-                $('.rightc3').animate({opacity:"0","top":"630px"});
-                $('.rightc4').animate({opacity:"0","top":"630px"});
+        $(".trigger svg").removeClass("active")
+                $('.leftc1').animate({opacity:"0","top":"500px"});
+                $('.leftc2').animate({opacity:"0","top":"500px"});
+                $('.leftc3').animate({opacity:"0","top":"500px"});
+                $('.leftc4').animate({opacity:"0","top":"500px"});
+                $('.rightc1').animate({opacity:"0","top":"500px"});
+                $('.rightc2').animate({opacity:"0","top":"500px"});
+                $('.rightc3').animate({opacity:"0","top":"500px"});
+                $('.rightc4').animate({opacity:"0","top":"500px"});
                 $(".left1").stop() .animate({"height":"0px"})
                 $(".left2").stop() .animate({"height":"0px"})
                 $(".left3").stop() .animate({"height":"0px"})
@@ -1367,28 +1164,15 @@ $(document).ready(function () {
         $('.con17payment').stop().delay(1500).animate({opacity:"1"},500);
       
 
-                $('.wrap1').animate({"width":"0px"});
-                $('.wrap2').animate({"width":"0px"});
-                $('.wrap3').animate({"height":"0px"});
-                $('.wrap4').animate({"height":"0px"});
-                $('.wrap5').animate({"width":"0px"});
-                $('.wrap6').animate({"width":"0px"});
-                $('.wrap7').animate({"width":"0px"});
-                $('.wrap8').animate({"height":"0px"});
-                $('.wrap9').animate({"height":"0px"});
-                $('.wrap10').animate({"height":"0px"});
-                $('.wrap11').animate({opacity:"0"});
-                $('.wrap12').animate({opacity:"0"});
-                $('.wrap13').animate({opacity:"0"});
-                $('.wrap14').animate({opacity:"0"});
-                $('.leftc1').animate({opacity:"0","top":"630px"});
-                $('.leftc2').animate({opacity:"0","top":"630px"});
-                $('.leftc3').animate({opacity:"0","top":"630px"});
-                $('.leftc4').animate({opacity:"0","top":"630px"});
-                $('.rightc1').animate({opacity:"0","top":"630px"});
-                $('.rightc2').animate({opacity:"0","top":"630px"});
-                $('.rightc3').animate({opacity:"0","top":"630px"});
-                $('.rightc4').animate({opacity:"0","top":"630px"});
+        $(".trigger svg").removeClass("active")
+                $('.leftc1').animate({opacity:"0","top":"500px"});
+                $('.leftc2').animate({opacity:"0","top":"500px"});
+                $('.leftc3').animate({opacity:"0","top":"500px"});
+                $('.leftc4').animate({opacity:"0","top":"500px"});
+                $('.rightc1').animate({opacity:"0","top":"500px"});
+                $('.rightc2').animate({opacity:"0","top":"500px"});
+                $('.rightc3').animate({opacity:"0","top":"500px"});
+                $('.rightc4').animate({opacity:"0","top":"500px"});
                 $(".left1").stop() .animate({"height":"0px"})
                 $(".left2").stop() .animate({"height":"0px"})
                 $(".left3").stop() .animate({"height":"0px"})
