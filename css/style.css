@@ -55,8 +55,8 @@
     left: 200px;
 }
 .con2 .con{
-    font-size: 15px;
-    line-height: 30px;
+    font-size: 20px;
+    line-height: 40px;
     position:absolute;
     left: 200px;
     top: 420px;
@@ -68,7 +68,7 @@
     line-height: 50px;
     position: absolute;
     left: 200px;
-    bottom: 190px;
+    bottom: 150px;
 }
 .con2 .txt span{
     font-family: 'AppleSDGothicNeoR';
